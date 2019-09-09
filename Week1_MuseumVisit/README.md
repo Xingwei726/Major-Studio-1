@@ -21,6 +21,7 @@
 ## Ideas & Sketches
 
 **Idea 1 Composition & Geography**
+
 *Main purpose: showcase what’s the relationship between geographic location and Himalayan paintings’ compositions.*
 
 Himalayan 'style' art is primarily concerned with religious subjects and is recognizable through the use of composition, symbols and motifs.
@@ -29,14 +30,18 @@ Composition Types:
 - Registers
 - Repeated Figure 
 - Floating Figure Composition
-![](image.jpg)
+![](idea1.jpg)
 
 **Idea 2 Visual Decoding Dictionary**
+
 *Main purpose: to study if there is a pattern of using iconography in painting, sculpture, textile making throughout timeline.*
 
 Himalayan art is mysterious and encrypted with cultural iconography, without help of explanation what we see in the museum might just be a magnificent painting, a marvelous sculpture but nothing else. A physical handout is helpful when information is limited, for non-experts, a digital tool might be easier.
+![](idea2.jpg)
 
 **Idea 3 Glance of 15yrs**
+
 *Main purpose: From a barney store to an art museum, this timeline of the museum showcases how it grows (October 2, 2004 ~2019, 15yrs, 180months ), visualize its input and output.*
 
-The museum originated from a private collection of Himalayan art which Donald and Shelley Rubin had been assembling since 1974. Shifting and dynamic — represents the Rubin Museum’s mission to explore the big questions and ideas fundamental to human culture through a personal engagement with art. With more and more donations gathered, the museum is expanding its collections in order to provide a place for people to contemplate art. My third idea is to create a digital version of their annual report
+The museum originated from a private collection of Himalayan art which Donald and Shelley Rubin had been assembling since 1974. Shifting and dynamic — represents the Rubin Museum’s mission to explore the big questions and ideas fundamental to human culture through a personal engagement with art. With more and more donations gathered, the museum is expanding its collections in order to provide a place for people to contemplate art. My third idea is to create a digital version of their annual report.
+![](idea3.jpg)
