@@ -15,8 +15,8 @@
  - They have online catalogue magazine and annual report in magazine form as well.  
  - They display a variety of filters on top while being not too overwhelming.
  - Can’t apply multiple filters, such as ‘painting’+’Nepal’
- - Not all photos of artworks are in high resolution, not sure if it’s intentional or not.
- - Zoom in function isn’t very helpful
+ - Not all photos of artworks are in high resolution, not sure if it’s intentional or not.
+ - Zoom in function isn’t very helpful.
 
 ## Ideas & Sketches
 
@@ -29,7 +29,7 @@ Composition Types:
 - Registers
 - Repeated Figure 
 - Floating Figure Composition
-
+![](image.jpg)
 
 **Idea 2 Visual Decoding Dictionary**
 *Main purpose: to study if there is a pattern of using iconography in painting, sculpture, textile making throughout timeline.*
