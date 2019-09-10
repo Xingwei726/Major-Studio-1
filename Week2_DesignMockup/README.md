@@ -1,7 +1,7 @@
 ## Concept
 
 For this quantitative data project, I want to explore the pattern formed by artists' life spans and their artworks which are intertwined with time. This project aims to visualize their correlation from a relatively macro perspective.
-(Update: After today's MET meeting, I gained another but sort of has related with my original concept, so I modified the second mockup to show that.)
+(Update: After today's MET meeting, I gained another perspective but sort of has related with my original chosen dataset, so I modified the second mockup to show that.)
 
 ## Design Mockup 1
 
