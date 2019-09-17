@@ -5,8 +5,8 @@ For this quantitative data project, I decided to measure the dimensions (lengths
 
 **Design Sketches from Last Week:**
 
-![](../Sketch/LastWeek1.jpg)
-![](../Sketch/LastWeek2.jpg)
+![](LastWeek1.jpg)
+![](LastWeek2.jpg)
 
 ## Finalize Design Direction
 **Things I want to show through this visualization:**
@@ -60,18 +60,18 @@ If we compare the MET museum to a breathing organism, artists are similar to its
 A well-defined “line” of DNA on a gel is called a band. Each band contains a large number of DNA fragments of the same size that have all traveled as a group to the same position. In this visualization I adopted the ‘band’ shape to mark each year of the artwork.
 
 ## Final Design Mockup
-![](../Sketch/FinalDesignMockup1.jpg)
+![](FinalDesignMockup1.jpg)
 
-![](../Sketch/FinalDesignMockup2.jpg)
+![](FinalDesignMockup2.jpg)
 
 ## The Data’s limitations
 **Uncertainties of Data**
 
 Especially with date and location information, not all artists have records so there are missing pieces as well as approximate estimations. In my design mockup I've included some ways to deal with uncertainties of data but I believe as I dive into the building phrase, other problems will pop up so I will continue to refine the representation on these.
 
-![](../Sketch/Uncertainty1.png)
+![](Uncertainty1.png)
 
-![](../Sketch/Uncertainty2.png)
+![](Uncertainty2.png)
 
 
 ## Next Steps
