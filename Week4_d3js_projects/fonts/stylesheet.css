@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'grifo_lblack';
+    src: url('grifol-black-webfont.woff2') format('woff2'),
+         url('grifol-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'grifo_lblack_italic';
+    src: url('grifol-blackitalic-webfont.woff2') format('woff2'),
+         url('grifol-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'grifo_lbold';
+    src: url('grifol-bold-webfont.woff2') format('woff2'),
+         url('grifol-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'grifo_lbold_italic';
+    src: url('grifol-bolditalic-webfont.woff2') format('woff2'),
+         url('grifol-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'grifo_litalic';
+    src: url('grifol-italic-webfont.woff2') format('woff2'),
+         url('grifol-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'grifo_llight';
+    src: url('grifol-light-webfont.woff2') format('woff2'),
+         url('grifol-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'grifo_llight_italic';
+    src: url('grifol-lightitalic-webfont.woff2') format('woff2'),
+         url('grifol-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'grifo_lmedium';
+    src: url('grifol-medium-webfont.woff2') format('woff2'),
+         url('grifol-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'grifo_lmedium_italic';
+    src: url('grifol-mediumitalic-webfont.woff2') format('woff2'),
+         url('grifol-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'grifo_lregular';
+    src: url('grifol-regular-webfont.woff2') format('woff2'),
+         url('grifol-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'grifo_mblack';
+    src: url('grifom-black-webfont.woff2') format('woff2'),
+         url('grifom-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'grifo_mblack_italic';
+    src: url('grifom-blackitalic-webfont.woff2') format('woff2'),
+         url('grifom-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
