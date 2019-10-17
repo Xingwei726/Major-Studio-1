@@ -20,13 +20,13 @@ Through this quantitative project, I want map out all identified apples inside M
 
 *Tree Diagram / Decision Tree / Flow Chart*
 
-** Visual Format:**
+**Visual Format:**
 
 *Poster / Foldable Map*
 
 I want to adopt the method of a play book---what we usually find in children’s reading section---invite audience to explore these artworks step by step. Hopefully by end of the experience, audience would discover one 'apple' they don't know before.
 
-*Went to several bookstore to look for references about physical play books.*
+*(Went to several bookstore to look for references.)*
 ![](MoodBoard.jpg)
 
 
@@ -40,12 +40,12 @@ I parsed out the "Apples" data from Met API, cleaned and reorganized the data in
 
 ![](DataSorting3.jpg)
 
-## Layout Iterations
-*Layout Iterations:*
+## Idea Sketches
+*Idea Sketches:*
 ![](LayoutIterations1.jpg)
 ![](LayoutIterations2.jpg)
 
-*Design from last week:*
+*Layout Iterations:*
 ![](OldSketch1.jpg)
 ![](OldSketch2.jpg)
 

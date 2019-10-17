@@ -1,0 +1,1566 @@
+{
+from: 1520
+id: 435593
+name: "Bachiacca (Francesco d'Ubertino Verdi)"
+title: "Eve with Cain and Abel"
+to: 1529
+yearOfBirth: "1494"
+yearOfDeath: "1557"
+distanceBetween: "Italian, Florence 1494–1557 Florence"}
+
+{
+  distanceBetween: "Italian, Florence 1494–1557 Florence"
+from: 1515
+id: 435594
+name: "Bachiacca (Francesco d'Ubertino Verdi)"
+title: "Leda and the Swan"
+to: 1557
+yearOfBirth: "1494"
+yearOfDeath: "1557"
+}
+
+{
+  distanceBetween: "Italian, Florence 1494–1557 Florence"
+from: 1520
+id: 435595
+name: "Bachiacca (Francesco d'Ubertino Verdi)"
+title: "Madonna and Child"
+to: 1523
+yearOfBirth: "1494"
+yearOfDeath: "1557"
+}
+
+{
+distanceBetween: "Dutch, Leiden 1584–1657 Leiden"
+from: 1641
+id: 435598
+name: "David Bailly"
+title: "Portrait of a Man, Possibly a Botanist"
+to: 1641
+yearOfBirth: "1584"
+yearOfDeath: "1657"
+}
+
+{
+distanceBetween: "Dutch, second quarter 17th century"
+from: 1625
+id: 435597
+name: "Jacob Backer"
+title: "Portrait of an Old Woman"
+to: 1649
+yearOfBirth: "1608"
+yearOfDeath: "1651"
+}
+
+{
+distanceBetween: "Dutch, Harlingen 1608–1651 Amsterdam"
+from: 1629
+id: 435596
+name: "Jacob Backer"
+title: "Old Woman in an Armchair"
+to: 1639
+yearOfBirth: "1608"
+yearOfDeath: "1651"
+}
+
+
+
+{
+distanceBetween: "Spanish, Barcelona 1862–1943 Barcelona"
+from: 1886
+id: 435599
+name: "Dionisio Baixeras y Verdaguer"
+title: "Boatmen of Barcelona"
+to: 1886
+yearOfBirth: "1862"
+yearOfDeath: "1943"
+}
+
+{
+distanceBetween: "Italian, Bolognese, active early 16th century"
+from: 1500
+id: 435601
+name: "Ercole Banci"
+title: "Madonna and Child"
+to: 1529
+yearOfBirth: "1500"
+yearOfDeath: "1529"
+}
+
+{
+distanceBetween: "French, Paris 1825/26–1883 Paris"
+from: 1871
+id: 435603
+name: "Charles Bargue"
+title: "A Footman Sleeping"
+to: 1871
+yearOfBirth: "1825"
+yearOfDeath: "1883"
+}
+
+{
+distanceBetween: "French, Paris 1825/26–1883 Paris"
+from: 1875
+id: 435604
+name: "Charles Bargue"
+title: "A Bashi-Bazouk"
+to: 1875
+yearOfBirth: "1825"
+yearOfDeath: "1883"
+}
+
+
+{
+distanceBetween: "Italian, Lombard, active by 1426–died 1450/51"
+from: 1425
+id: 435602
+name: "Donato de' Bardi"
+title: "Madonna and Child with Saints Philip and Agnes"
+to: 1430
+yearOfBirth: "1426"
+yearOfDeath: "1451"
+}
+
+{
+distanceBetween: "British, active ca. 1784–1827"
+from: 1785
+id: 435609
+name: "John Barry"
+title: "Portrait of a Man"
+to: 1795
+yearOfBirth: "1784"
+yearOfDeath: "1827"
+}
+
+{
+distanceBetween: "British, active ca. 1784–1827"
+from: 1785
+id: 435610
+name: "John Barry"
+title: "Portrait of a Woman"
+to: 1795
+yearOfBirth: "1784"
+yearOfDeath: "1827"
+}
+
+{
+distanceBetween: "British, active ca. 1784–1827"
+from: 1785
+id: 435611
+name: "John Barry"
+title: "Portrait of a Man, Said to Be John Durham"
+to: 1795
+yearOfBirth: "1784"
+yearOfDeath: "1827"
+}
+
+{
+distanceBetween: "German, Schwäbisch Gmünd (?) 1484/85–1545 Strasbourg"
+from: 1506
+id: 435600
+name: "Hans Baldung (called Hans Baldung Grien)"
+title: "Saint John on Patmos"
+to: 1516
+yearOfBirth: "1484"
+yearOfDeath: "1545"
+}
+
+{
+distanceBetween: "ca. 1790"
+from: 1785
+id: 435608
+name: "Barrois"
+title: "Portrait of a Man"
+to: 1795
+yearOfBirth: "1790"
+yearOfDeath: "1790"
+}
+
+{
+distanceBetween: "Italian, active in Romagna and the Marches, second quarter 14th century"
+from: 1344
+id: 435607
+name: "Giovanni Baronzio"
+title: "Scenes from the Life of Christ"
+to: 1346
+yearOfBirth: "1325"
+yearOfDeath: "1349"
+}
+
+{
+distanceBetween: "French, Thiverval 1848–1928 Paris"
+from: 1883
+id: 435612
+name: "Albert Bartholomé"
+title: "The Artist's Wife (Périe, 1849–1887) Reading"
+to: 1883
+yearOfBirth: "1848"
+yearOfDeath: "1928"
+}
+
+{
+  distanceBetween: "Italian, Modena, active 1460–79"
+from: 1467
+id: 435616
+name: "Bartolomeo degli Erri"
+title: "Saint Dominic Resuscitating Napoleone Orsini"
+to: 1474
+yearOfBirth: "1460"
+yearOfDeath: "1479"
+}
+
+{
+  distanceBetween: "Italian, Florence, active by 1488–died 1501"
+from: 1488
+id: 435618
+name: "Bartolomeo di Giovanni"
+title: "The Trinity"
+to: 1501
+yearOfBirth: "1488"
+yearOfDeath: "1501"
+}
+
+{
+  distanceBetween: "Italian, Florence 1473–1517 Florence"
+from: 1497
+id: 435615
+name: "Fra Bartolomeo (Bartolomeo di Paolo del Fattorino)"
+title: "Portrait of a Man"
+to: 1517
+yearOfBirth: "1473"
+yearOfDeath: "1517"
+}
+
+{
+  distanceBetween: "Italian, Umbrian, active by 1425–died 1453/54"
+from: 1440
+id: 435619
+name: "Bartolomeo di Tommaso"
+title: "The Betrayal of Christ"
+to: 1450
+yearOfBirth: "1425"
+yearOfDeath: "1454"
+}
+
+{
+  distanceBetween: "Italian, Modena, active 1460–79"
+from: 1460
+id: 435617
+name: "Bartolomeo degli Erri"
+title: "Saint Thomas Aquinas Aided by Saints Peter and Paul"
+to: 1479
+yearOfBirth: "1460"
+yearOfDeath: "1479"
+}
+
+{
+  distanceBetween: "Italian, Florence 1473–1517 Florence"
+from: 1492
+id: 435614
+name: "Fra Bartolomeo (Bartolomeo di Paolo del Fattorino)"
+title: "Madonna and Child with the Young Saint John the Baptist"
+to: 1502
+yearOfBirth: "1473"
+yearOfDeath: "1517"
+}
+
+{
+  distanceBetween: "Dutch, ca. 1581–1650"
+from: 1627
+id: 435624
+name: "David Baudringhien"
+title: "Portrait of a Man"
+to: 1627
+yearOfBirth: "1581"
+yearOfDeath: "1650"
+}
+
+{
+  distanceBetween: "Italian, Lucca 1708–1787 Rome"
+from: 1761
+id: 435622
+name: "Pompeo Batoni"
+title: "Diana and Cupid"
+to: 1761
+yearOfBirth: "1708"
+yearOfDeath: "1787"
+}
+
+{
+  distanceBetween: "Italian, Umbrian, active by 1425–died 1453/54"
+from: 1445
+id: 435620
+name: "Bartolomeo di Tommaso"
+title: "The Lamentation and the Entombment"
+to: 1450
+yearOfBirth: "1425"
+yearOfDeath: "1454"
+}
+
+{
+  distanceBetween: "Italian, Lucca 1708–1787 Rome"
+from: 1760
+id: 435623
+name: "Pompeo Batoni"
+title: "Portrait of a Young Man"
+to: 1765
+yearOfBirth: "1708"
+yearOfDeath: "1787"
+}
+
+{
+  distanceBetween: "Dutch, ca. 1581–1650"
+from: 1601
+id: 435625
+name: "David Baudringhien"
+title: "Portrait of a Woman"
+to: 1650
+yearOfBirth: "1581"
+yearOfDeath: "1650"
+}
+
+{
+  distanceBetween: "British, Burford, Oxfordshire 1753–1839 Hampstead"
+from: 1773
+id: 435631
+name: "Sir William Beechey"
+title: "George IV (1762–1830), When Prince of Wales"
+to: 1839
+yearOfBirth: "1753"
+yearOfDeath: "1839"
+}
+
+object at index 62 {id: 435632, 
+distanceBetween: "British, Burford, Oxfordshire 1753–1839 Hampstead",
+from: 1785,
+id: 435630,
+name: "Sir William Beechey",
+title: "Edward Miles (1752–1828)",
+to: 1785,
+yearOfBirth: "1753",
+yearOfDeath: "1839",
+}
+
+object at index 64 { id: 435627
+distanceBetween: "French, Lannion 1821–1888 Paris"
+from: 1875
+id: 435627
+name: "Charles-Édouard de Beaumont"
+title: "In the Sun"
+to: 1875
+yearOfBirth: "1821"
+yearOfDeath: "1888"
+}
+
+object at index 66 { id: 435626{
+distanceBetween: "French, Montpellier 1841–1870 Beaune-la-Rolande"
+from: 1867
+id: 435626
+name: "Jean-Frédéric Bazille"
+title: "Porte de la Reine at Aigues-Mortes"
+to: 1867
+yearOfBirth: "1841"
+yearOfDeath: "1870"
+}
+
+
+object at index 342 { id: 437640,
+  title: 'Baron Alexander von Humboldt (1769–1859)',
+  from: 1859,
+  to: 1859,
+  name: 'Julius Schrader',
+  yearOfBirth: '1815',
+  yearOfDeath: '1900',
+  distanceBetween: 'German, Berlin 1815–1900 Große-Lichterfelde' }
+object at index 344 { id: 435637,
+  title: 'Charles Coguin, Abbot of Anchin',
+  from: 1509,
+  to: 1513,
+  name: 'Jean Bellegambe',
+  yearOfBirth: '1470',
+  yearOfDeath: '1536',
+  distanceBetween: 'French, Douai ca. 1470–1535/36 Douai' }
+object at index 346 { id: 435656,
+  title: 'The Assumption of the Virgin',
+  from: 1500,
+  to: 1523,
+  name: 'Bergognone (Ambrogio di Stefano da Fossano)',
+  yearOfBirth: '1453',
+  yearOfDeath: '1523',
+  distanceBetween: 'Italian, Milan ca. 1453–1523 Milan' }
+object at index 348 { id: 439120,
+  title: 'The Mass of Saint Basil',
+  from: 1746,
+  to: 1746,
+  name: 'Pierre Hubert Subleyras',
+  yearOfBirth: '1699',
+  yearOfDeath: '1749',
+  distanceBetween: 'French, Saint-Gilles-du-Gard 1699–1749 Rome' }
+object at index 350 { id: 437540,
+  title: 'Frans Francken I (1542–1616)',
+  from: 1597,
+  to: 1640,
+  name: 'Peter Paul Rubens',
+  yearOfBirth: '1577',
+  yearOfDeath: '1640',
+  distanceBetween: 'Flemish, Siegen 1577–1640 Antwerp' }
+object at index 352 { id: 437521,
+  title: 'A Village in a Valley',
+  from: 1825,
+  to: 1835,
+  name: 'Théodore Rousseau',
+  yearOfBirth: '1812',
+  yearOfDeath: '1867',
+  distanceBetween: 'French, Paris 1812–1867 Barbizon' }
+object at index 354 { id: 437672,
+  title: 'Notre-Dame-de-la-Garde (La Bonne-Mère), Marseilles',
+  from: 1905,
+  to: 1906,
+  name: 'Paul Signac',
+  yearOfBirth: '1863',
+  yearOfDeath: '1935',
+  distanceBetween: 'French, Paris 1863–1935 Paris' }
+object at index 356 { id: 437539,
+  title: 'Cambyses Appointing Otanes Judge',
+  from: 1700,
+  to: 1799,
+  name: 'Peter Paul Rubens',
+  yearOfBirth: '1577',
+  yearOfDeath: '1640',
+  distanceBetween: 'probably 18th century' }
+object at index 358 { id: 437587,
+  title: 'Marine',
+  from: 1650,
+  to: 1650,
+  name: 'Salomon van Ruysdael',
+  yearOfBirth: '1600',
+  yearOfDeath: '1670',
+  distanceBetween: 'Dutch, Naarden, born ca. 1600–1603, died 1670 Haarlem' }
+object at index 360 { id: 436561,
+  title:
+   'Saints Nicholas of Tolentino, Roch, Sebastian, and Bernardino of Siena, with Kneeling Donors',
+  from: 1481,
+  to: 1481,
+  name: 'Benozzo Gozzoli (Benozzo di Lese di Sandro)',
+  yearOfBirth: '1420',
+  yearOfDeath: '1497',
+  distanceBetween: 'Italian, Florence ca. 1420–1497 Pistoia' }
+object at index 362 { id: 439398,
+  title: 'The Arch of Constantine Seen from the Colosseum',
+  from: 1818,
+  to: 1838,
+  name: 'Lancelot Théodore Turpin de Crissé',
+  yearOfBirth: '1782',
+  yearOfDeath: '1859',
+  distanceBetween: 'French, Paris 1782–1859 Paris' }
+object at index 364 { id: 437598,
+  title: 'Portrait of a Man',
+  from: 1530,
+  to: 1563,
+  name: 'Francesco Salviati (Francesco de\' Rossi)',
+  yearOfBirth: '1510',
+  yearOfDeath: '1563',
+  distanceBetween: 'Italian, Florence 1510–1563 Rome' }
+object at index 366 { id: 815112,
+  title:
+   'Little Denise (Denise Maréchal, later Madame Georges Béart, 1883–1956)',
+  from: 1889,
+  to: 1889,
+  name: 'Theo Van Rysselberghe',
+  yearOfBirth: '1862',
+  yearOfDeath: '1926',
+  distanceBetween: 'Belgian, Ghent 1862–1926 Saint Clair' }
+object at index 368 { id: 436597,
+  title: 'Piazza San Marco',
+  from: 1767,
+  to: 1769,
+  name: 'Francesco Guardi',
+  yearOfBirth: '1712',
+  yearOfDeath: '1793',
+  distanceBetween: 'Italian, Venice 1712–1793 Venice' }
+object at index 370 { id: 439631,
+  title: 'Ovid among the Scythians',
+  from: 1862,
+  to: 1862,
+  name: 'Eugène Delacroix',
+  yearOfBirth: '1798',
+  yearOfDeath: '1863',
+  distanceBetween: 'French, Charenton-Saint-Maurice 1798–1863 Paris' }
+object at index 372 { id: 435600,
+  title: 'Saint John on Patmos',
+  from: 1506,
+  to: 1516,
+  name: 'Hans Baldung (called Hans Baldung Grien)',
+  yearOfBirth: '1484',
+  yearOfDeath: '1545',
+  distanceBetween: 'German, Schwäbisch Gmünd (?) 1484/85–1545 Strasbourg' }
+object at index 374 { id: 436598,
+  title: 'Santa Maria della Salute',
+  from: 1763,
+  to: 1769,
+  name: 'Francesco Guardi',
+  yearOfBirth: '1712',
+  yearOfDeath: '1793',
+  distanceBetween: 'Italian, Venice 1712–1793 Venice' }
+object at index 376 { id: 440985,
+  title: 'The Crucifixion',
+  from: 1310,
+  to: 1320,
+  name: 'Ugolino da Siena',
+  yearOfBirth: '1317',
+  yearOfDeath: '1349',
+  distanceBetween: 'Italian, Siena, active by 1317–died ?1339/49' }
+object at index 378 { id: 435638,
+  title: 'The Le Cellier Altarpiece',
+  from: 1509,
+  to: 1509,
+  name: 'Jean Bellegambe',
+  yearOfBirth: '1470',
+  yearOfDeath: '1536',
+  distanceBetween: 'French, Douai ca. 1470–1535/36 Douai' }
+object at index 380 { id: 438776,
+  title: 'Madonna and Child with Saints',
+  from: 1607,
+  to: 1607,
+  name: 'Ludovico Carracci',
+  yearOfBirth: '1555',
+  yearOfDeath: '1619',
+  distanceBetween: 'Italian, Bologna 1555–1619 Bologna' }
+object at index 382 { id: 437743,
+  title: 'The Trinity Adored by All Saints',
+  from: 1395,
+  to: 1405,
+  name: 'Spanish Painter',
+  yearOfBirth: '',
+  yearOfDeath: '',
+  distanceBetween: 'ca. 1400' }
+object at index 384 { id: 438822,
+  title: 'The Repast of the Lion',
+  from: 1902,
+  to: 1912,
+  name: 'Henri Rousseau (le Douanier)',
+  yearOfBirth: '1844',
+  yearOfDeath: '1910',
+  distanceBetween: 'French, Laval 1844–1910 Paris' }
+object at index 386 { id: 436558,
+  title: 'View of Haarlem and the Haarlemmer Meer',
+  from: 1646,
+  to: 1646,
+  name: 'Jan van Goyen',
+  yearOfBirth: '1596',
+  yearOfDeath: '1656',
+  distanceBetween: 'Dutch, Leiden 1596–1656 The Hague' }
+object at index 388 { id: 437533,
+  title: 'Study of Two Heads',
+  from: 1604,
+  to: 1614,
+  name: 'Peter Paul Rubens',
+  yearOfBirth: '1577',
+  yearOfDeath: '1640',
+  distanceBetween: 'Flemish, Siegen 1577–1640 Antwerp' }
+object at index 390 { id: 435635,
+  title: 'Chancellor Leonhard von Eck (1480–1550)',
+  from: 1527,
+  to: 1527,
+  name: 'Barthel Beham',
+  yearOfBirth: '1502',
+  yearOfDeath: '1540',
+  distanceBetween: 'German, Nuremberg ca. 1502–1540 Italy' }
+object at index 392 { id: 435617,
+  title: 'Saint Thomas Aquinas Aided by Saints Peter and Paul',
+  from: 1460,
+  to: 1479,
+  name: 'Bartolomeo degli Erri',
+  yearOfBirth: '1460',
+  yearOfDeath: '1479',
+  distanceBetween: 'Italian, Modena, active 1460–79' }
+object at index 394 { id: 437700,
+  title: 'The Birth of the Virgin',
+  from: 1685,
+  to: 1695,
+  name: 'Francesco Solimena',
+  yearOfBirth: '1657',
+  yearOfDeath: '1747',
+  distanceBetween: 'Italian, Canale di Serino 1657–1747 Barra' }
+object at index 396 { id: 437680,
+  title: 'The Bridge at Villeneuve-la-Garenne',
+  from: 1872,
+  to: 1872,
+  name: 'Alfred Sisley',
+  yearOfBirth: '1839',
+  yearOfDeath: '1899',
+  distanceBetween: 'British, Paris 1839–1899 Moret-sur-Loing' }
+object at index 398 { id: 435602,
+  title: 'Madonna and Child with Saints Philip and Agnes',
+  from: 1425,
+  to: 1430,
+  name: 'Donato de\' Bardi',
+  yearOfBirth: '1426',
+  yearOfDeath: '1451',
+  distanceBetween: 'Italian, Lombard, active by 1426–died 1450/51' }
+object at index 400 { id: 435650,
+  title:
+   'Madame Philippe Panon Desbassayns de Richemont (Jeanne Eglé Mourgue, 1778–1855) and Her Son, Eugène (1800–1859)',
+  from: 1802,
+  to: 1802,
+  name: 'Marie Guillelmine Benoist',
+  yearOfBirth: '1768',
+  yearOfDeath: '1826',
+  distanceBetween: 'French, Paris 1768–1826 Paris' }
+object at index 402 { id: 437673,
+  title:
+   'The Assumption of the Virgin with Saints Michael and Benedict',
+  from: 1493,
+  to: 1496,
+  name: 'Luca Signorelli',
+  yearOfBirth: '1470',
+  yearOfDeath: '1523',
+  distanceBetween: 'Italian, Cortona, active by 1470–died 1523 Cortona' }
+object at index 404 { id: 435658,
+  title: 'Madonna and Child',
+  from: 1230,
+  to: 1239,
+  name: 'Berlinghiero',
+  yearOfBirth: '1228',
+  yearOfDeath: '1236',
+  distanceBetween: 'Italian, Lucca, active by 1228–died by 1236' }
+object at index 406 { id: 435647,
+  title: 'Vaprio d\'Adda',
+  from: 1744,
+  to: 1744,
+  name: 'Bernardo Bellotto',
+  yearOfBirth: '1722',
+  yearOfDeath: '1780',
+  distanceBetween: 'Italian, Venice 1722–1780 Warsaw' }
+object at index 408 { id: 435607,
+  title: 'Scenes from the Life of Christ',
+  from: 1344,
+  to: 1346,
+  name: 'Giovanni Baronzio',
+  yearOfBirth: '1325',
+  yearOfDeath: '1349',
+  distanceBetween:
+   'Italian, active in Romagna and the Marches, second quarter 14th century' }
+object at index 410 { id: 436571,
+  title: 'The Adoration of the Shepherds',
+  from: 1612,
+  to: 1614,
+  name: 'El Greco (Domenikos Theotokopoulos) and Workshop',
+  yearOfBirth: '1540',
+  yearOfDeath: '1614',
+  distanceBetween: 'Greek, Iráklion (Candia) 1540/41–1614 Toledo' }
+object at index 412 { id: 438722,
+  title:
+   'The Potato Peeler (reverse: Self-Portrait with a Straw Hat)',
+  from: 1885,
+  to: 1885,
+  name: 'Vincent van Gogh',
+  yearOfBirth: '1853',
+  yearOfDeath: '1890',
+  distanceBetween: 'Dutch, Zundert 1853–1890 Auvers-sur-Oise' }
+object at index 414 { id: 435597,
+  title: 'Portrait of an Old Woman',
+  from: 1625,
+  to: 1649,
+  name: 'Jacob Backer',
+  yearOfBirth: '1608',
+  yearOfDeath: '1651',
+  distanceBetween: 'Dutch, second quarter 17th century' }
+object at index 416 { id: 436551,
+  title: 'Ferdinand VII (1784–1833), When Prince of Asturias',
+  from: 1800,
+  to: 1805,
+  name: 'Goya',
+  yearOfBirth: '1746',
+  yearOfDeath: '1828',
+  distanceBetween: 'Spanish, Fuendetodos 1746–1828 Bordeaux' }
+object at index 418 { id: 435668,
+  title: 'Saint Nicholas Providing Dowries',
+  from: 1433,
+  to: 1435,
+  name: 'Bicci di Lorenzo',
+  yearOfBirth: '1373',
+  yearOfDeath: '1452',
+  distanceBetween: 'Italian, Florence 1373–1452 Florence' }
+object at index 420 { id: 435642,
+  title: 'Madonna and Child with Saints',
+  from: 1459,
+  to: 1516,
+  name: 'Giovanni Bellini',
+  yearOfBirth: '1459',
+  yearOfDeath: '1516',
+  distanceBetween: 'Italian, Venice, active by 1459–died 1516 Venice' }
+object at index 422 { id: 435626,
+  title: 'Porte de la Reine at Aigues-Mortes',
+  from: 1867,
+  to: 1867,
+  name: 'Jean-Frédéric Bazille',
+  yearOfBirth: '1841',
+  yearOfDeath: '1870',
+  distanceBetween: 'French, Montpellier 1841–1870 Beaune-la-Rolande' }
+object at index 424 { id: 435665,
+  title: 'Scenes from the Story of the Argonauts',
+  from: 1476,
+  to: 1504,
+  name: 'Biagio d\'Antonio',
+  yearOfBirth: '1472',
+  yearOfDeath: '1516',
+  distanceBetween: 'Italian, Florentine, active by 1472–died 1516' }
+object at index 426 { id: 438823,
+  title: 'The Manneporte (Étretat)',
+  from: 1883,
+  to: 1883,
+  name: 'Claude Monet',
+  yearOfBirth: '1840',
+  yearOfDeath: '1926',
+  distanceBetween: 'French, Paris 1840–1926 Giverny' }
+object at index 428 { id: 437525,
+  title: 'The Feast of Acheloüs',
+  from: 1610,
+  to: 1620,
+  name: 'Peter Paul Rubens',
+  yearOfBirth: '1577',
+  yearOfDeath: '1640',
+  distanceBetween: 'Flemish, Siegen 1577–1640 Antwerp' }
+object at index 430 { id: 437677,
+  title: 'Saint Bartholomew',
+  from: 1317,
+  to: 1319,
+  name: 'Simone Martini',
+  yearOfBirth: '1315',
+  yearOfDeath: '1344',
+  distanceBetween: 'Italian, Siena, active by 1315–died 1344 Avignon' }
+object at index 432 { id: 436572,
+  title: 'Christ Healing the Blind',
+  from: 1565,
+  to: 1575,
+  name: 'El Greco (Domenikos Theotokopoulos)',
+  yearOfBirth: '1540',
+  yearOfDeath: '1614',
+  distanceBetween: 'Greek, Iráklion (Candia) 1540/41–1614 Toledo' }
+object at index 434 { id: 437699,
+  title: 'Salome with the Head of Saint John the Baptist',
+  from: 1507,
+  to: 1509,
+  name: 'Andrea Solario',
+  yearOfBirth: '1465',
+  yearOfDeath: '1524',
+  distanceBetween: 'Italian, Milan ca. 1465–1524 Milan' }
+object at index 436 { id: 437655,
+  title: 'The Forest at Pontaubert',
+  from: 1881,
+  to: 1881,
+  name: 'Georges Seurat',
+  yearOfBirth: '1859',
+  yearOfDeath: '1891',
+  distanceBetween: 'French, Paris 1859–1891 Paris' }
+object at index 438 { id: 436569,
+  title: 'The Choir of the Capuchin Church in Rome',
+  from: 1814,
+  to: 1815,
+  name: 'François Marius Granet',
+  yearOfBirth: '1775',
+  yearOfDeath: '1849',
+  distanceBetween: 'French, Aix-en-Provence 1775–1849 Aix-en-Provence' }
+object at index 440 { id: 435653,
+  title: 'Sunday at the Church of Saint-Philippe-du-Roule, Paris',
+  from: 1877,
+  to: 1877,
+  name: 'Jean Béraud',
+  yearOfBirth: '1849',
+  yearOfDeath: '1936',
+  distanceBetween: 'French, St. Petersburg 1849–1936 Paris' }
+object at index 442 { id: 436570,
+  title: 'The Adoration of the Shepherds',
+  from: 1605,
+  to: 1610,
+  name: 'El Greco (Domenikos Theotokopoulos)',
+  yearOfBirth: '1540',
+  yearOfDeath: '1614',
+  distanceBetween: 'Greek, Iráklion (Candia) 1540/41–1614 Toledo' }
+object at index 444 { id: 435596,
+  title: 'Old Woman in an Armchair',
+  from: 1629,
+  to: 1639,
+  name: 'Jacob Backer',
+  yearOfBirth: '1608',
+  yearOfDeath: '1651',
+  distanceBetween: 'Dutch, Harlingen 1608–1651 Amsterdam' }
+object at index 446 { id: 435614,
+  title: 'Madonna and Child with the Young Saint John the Baptist',
+  from: 1492,
+  to: 1502,
+  name: 'Fra Bartolomeo (Bartolomeo di Paolo del Fattorino)',
+  yearOfBirth: '1473',
+  yearOfDeath: '1517',
+  distanceBetween: 'Italian, Florence 1473–1517 Florence' }
+object at index 448 { id: 435641,
+  title: 'Madonna and Child',
+  from: 1487,
+  to: 1489,
+  name: 'Giovanni Bellini',
+  yearOfBirth: '1459',
+  yearOfDeath: '1516',
+  distanceBetween: 'Italian, Venice, active by 1459–died 1516 Venice' }
+object at index 450 { id: 437523,
+  title: 'Atalanta and Meleager',
+  from: 1611,
+  to: 1621,
+  name: 'Peter Paul Rubens',
+  yearOfBirth: '1577',
+  yearOfDeath: '1640',
+  distanceBetween: 'Flemish, Siegen 1577–1640 Antwerp' }
+object at index 452 { id: 436563,
+  title: 'Saint Peter and Simon Magus',
+  from: 1440,
+  to: 1497,
+  name: 'Benozzo Gozzoli (Benozzo di Lese di Sandro)',
+  yearOfBirth: '1420',
+  yearOfDeath: '1497',
+  distanceBetween: 'Italian, Florence ca. 1420–1497 Pistoia' }
+object at index 454 { id: 436553,
+  title: 'A City on a Rock',
+  from: 1800,
+  to: 1899,
+  name: 'Goya',
+  yearOfBirth: '1746',
+  yearOfDeath: '1828',
+  distanceBetween: 'Spanish, 19th century' }
+object at index 456 { id: 438691,
+  title: 'Saint George',
+  from: 1472,
+  to: 1472,
+  name: 'Carlo Crivelli',
+  yearOfBirth: '1457',
+  yearOfDeath: '1495',
+  distanceBetween:
+   'Italian, Venice (?), active by 1457–died 1495 Ascoli Piceno' }
+object at index 458 { id: 437675,
+  title: 'Saint Andrew',
+  from: 1321,
+  to: 1331,
+  name: 'Simone Martini',
+  yearOfBirth: '1315',
+  yearOfDeath: '1344',
+  distanceBetween: 'Italian, Siena, active by 1315–died 1344 Avignon' }
+object at index 460 { id: 435683,
+  title: 'Island of the Dead',
+  from: 1880,
+  to: 1880,
+  name: 'Arnold Böcklin',
+  yearOfBirth: '1827',
+  yearOfDeath: '1901',
+  distanceBetween: 'Swiss, Basel 1827–1901 San Domenico, Italy' }
+object at index 462 { id: 438814,
+  title: 'The Abduction of Rebecca',
+  from: 1846,
+  to: 1846,
+  name: 'Eugène Delacroix',
+  yearOfBirth: '1798',
+  yearOfDeath: '1863',
+  distanceBetween: 'French, Charenton-Saint-Maurice 1798–1863 Paris' }
+object at index 464 { id: 437535,
+  title: 'Venus and Adonis',
+  from: 1634,
+  to: 1636,
+  name: 'Peter Paul Rubens',
+  yearOfBirth: '1577',
+  yearOfDeath: '1640',
+  distanceBetween: 'Flemish, Siegen 1577–1640 Antwerp' }
+object at index 466 { id: 435640,
+  title: 'Madonna Adoring the Sleeping Child',
+  from: 1460,
+  to: 1463,
+  name: 'Giovanni Bellini',
+  yearOfBirth: '1459',
+  yearOfDeath: '1516',
+  distanceBetween: 'Italian, Venice, active by 1459–died 1516 Venice' }
+object at index 468 { id: 436545,
+  title: 'Manuel Osorio Manrique de Zuñiga (1784–1792)',
+  from: 1787,
+  to: 1788,
+  name: 'Goya (Francisco de Goya y Lucientes)',
+  yearOfBirth: '1746',
+  yearOfDeath: '1828',
+  distanceBetween: 'Spanish, Fuendetodos 1746–1828 Bordeaux' }
+object at index 470 { id: 437658,
+  title: 'Study for "A Sunday on La Grande Jatte"',
+  from: 1884,
+  to: 1884,
+  name: 'Georges Seurat',
+  yearOfBirth: '1859',
+  yearOfDeath: '1891',
+  distanceBetween: 'French, Paris 1859–1891 Paris' }
+object at index 472 { id: 436573,
+  title: 'Cardinal Fernando Niño de Guevara (1541–1609)',
+  from: 1595,
+  to: 1605,
+  name: 'El Greco (Domenikos Theotokopoulos)',
+  yearOfBirth: '1540',
+  yearOfDeath: '1614',
+  distanceBetween: 'Greek, Iráklion (Candia) 1540/41–1614 Toledo' }
+object at index 474 { id: 438821,
+  title: 'Ia Orana Maria (Hail Mary)',
+  from: 1891,
+  to: 1891,
+  name: 'Paul Gauguin',
+  yearOfBirth: '1848',
+  yearOfDeath: '1903',
+  distanceBetween: 'French, Paris 1848–1903 Atuona, Hiva Oa, Marquesas Islands' }
+
+  
+
+object at index 538 { id: 435614,
+  title: 'Madonna and Child with the Young Saint John the Baptist',
+  from: 1492,
+  to: 1502,
+  name: 'Fra Bartolomeo (Bartolomeo di Paolo del Fattorino)',
+  yearOfBirth: '1473',
+  yearOfDeath: '1517',
+  distanceBetween: 'Italian, Florence 1473–1517 Florence' }
+object at index 540 { id: 437274,
+  title: 'Frescoes from the Villa Stati-Mattei',
+  from: 1501,
+  to: 1536,
+  name: 'Baldassare Tommaso Peruzzi',
+  yearOfBirth: '1481',
+  yearOfDeath: '1536',
+  distanceBetween: 'Italian, Ancaiano 1481–1536 Rome' }
+object at index 542 { id: 435665,
+  title: 'Scenes from the Story of the Argonauts',
+  from: 1476,
+  to: 1504,
+  name: 'Biagio d\'Antonio',
+  yearOfBirth: '1472',
+  yearOfDeath: '1516',
+  distanceBetween: 'Italian, Florentine, active by 1472–died 1516' }
+object at index 544 { id: 435833,
+  title: 'Herodias',
+  from: 1627,
+  to: 1635,
+  name: 'Francesco Cairo',
+  yearOfBirth: '1607',
+  yearOfDeath: '1665',
+  distanceBetween: 'Italian, Milan 1607–1665 Milan' }
+object at index 546 { id: 436068,
+  title: 'Christ Enthroned with Saints',
+  from: 1320,
+  to: 1330,
+  name: 'Bernardo Daddi',
+  yearOfBirth: '1290',
+  yearOfDeath: '1348',
+  distanceBetween: 'Italian, Florence (?) ca. 1290–1348 Florence' }
+object at index 548 { id: 437288,
+  title: 'The Crucified Christ',
+  from: 1324,
+  to: 1333,
+  name: 'Pietro da Rimini',
+  yearOfBirth: '1324',
+  yearOfDeath: '1333',
+  distanceBetween: 'Italian, Riminese, active 1324–33' }
+object at index 550 { id: 436085,
+  title: 'Apple Blossoms',
+  from: 1873,
+  to: 1873,
+  name: 'Charles-François Daubigny',
+  yearOfBirth: '1817',
+  yearOfDeath: '1878',
+  distanceBetween: 'French, Paris 1817–1878 Paris' }
+object at index 552 { id: 436033,
+  title: 'Lukas Spielhausen',
+  from: 1532,
+  to: 1532,
+  name: 'Lucas Cranach the Elder',
+  yearOfBirth: '1472',
+  yearOfDeath: '1553',
+  distanceBetween: 'German, Kronach 1472–1553 Weimar' }
+object at index 554 { id: 435669,
+  title: 'Saint Nicholas Resuscitating Three Youths',
+  from: 1433,
+  to: 1435,
+  name: 'Bicci di Lorenzo',
+  yearOfBirth: '1373',
+  yearOfDeath: '1452',
+  distanceBetween: 'Italian, Florence 1373–1452 Florence' }
+object at index 556 { id: 437286,
+  title: 'The Death of Harmonia',
+  from: 1740,
+  to: 1741,
+  name: 'Jean-Baptiste Marie Pierre',
+  yearOfBirth: '1714',
+  yearOfDeath: '1789',
+  distanceBetween: 'French, Paris 1714–1789 Paris' }
+object at index 558 { id: 436039,
+  title: 'The Martyrdom of Saint Barbara',
+  from: 1505,
+  to: 1515,
+  name: 'Lucas Cranach the Elder',
+  yearOfBirth: '1472',
+  yearOfDeath: '1553',
+  distanceBetween: 'German, Kronach 1472–1553 Weimar' }
+object at index 560 { id: 435668,
+  title: 'Saint Nicholas Providing Dowries',
+  from: 1433,
+  to: 1435,
+  name: 'Bicci di Lorenzo',
+  yearOfBirth: '1373',
+  yearOfDeath: '1452',
+  distanceBetween: 'Italian, Florence 1373–1452 Florence' }
+object at index 562 { id: 435642,
+  title: 'Madonna and Child with Saints',
+  from: 1459,
+  to: 1516,
+  name: 'Giovanni Bellini',
+  yearOfBirth: '1459',
+  yearOfDeath: '1516',
+  distanceBetween: 'Italian, Venice, active by 1459–died 1516 Venice' }
+object at index 564 { id: 437312,
+  title: 'The Garden of the Tuileries on a Winter Afternoon',
+  from: 1899,
+  to: 1899,
+  name: 'Camille Pissarro',
+  yearOfBirth: '1830',
+  yearOfDeath: '1903',
+  distanceBetween: 'French, Charlotte Amalie, Saint Thomas 1830–1903 Paris' }
+object at index 566 { id: 435672,
+  title: 'Angelica and Medoro',
+  from: 1630,
+  to: 1633,
+  name: 'Jacques Blanchard',
+  yearOfBirth: '1600',
+  yearOfDeath: '1638',
+  distanceBetween: 'French, 1600–1638' }
+object at index 568 { id: 435666,
+  title: 'The Story of Joseph',
+  from: 1476,
+  to: 1504,
+  name: 'Biagio d\'Antonio',
+  yearOfBirth: '1472',
+  yearOfDeath: '1516',
+  distanceBetween: 'Italian, Florentine, active by 1472–died 1516' }
+object at index 570 { id: 436055,
+  title: 'Madonna and Child Enthroned with Two Angels and a Donor',
+  from: 1481,
+  to: 1481,
+  name: 'Vittore Crivelli',
+  yearOfBirth: '1465',
+  yearOfDeath: '1502',
+  distanceBetween: 'Italian, Venice, active by 1465–died 1501/2 Fermo' }
+object at index 572 { id: 436049,
+  title: 'Philip IV (1605–1665) in Parade Armor',
+  from: 1623,
+  to: 1633,
+  name: 'Gaspar de Crayer',
+  yearOfBirth: '1584',
+  yearOfDeath: '1669',
+  distanceBetween: 'Flemish, 1584–1669' }
+object at index 574 { id: 436038,
+  title: 'Judith with the Head of Holofernes',
+  from: 1525,
+  to: 1535,
+  name: 'Lucas Cranach the Elder',
+  yearOfBirth: '1472',
+  yearOfDeath: '1553',
+  distanceBetween: 'German, Kronach 1472–1553 Weimar' }
+object at index 576 { id: 435879,
+  title: 'The Pool at Jas de Bouffan',
+  from: 1885,
+  to: 1886,
+  name: 'Paul Cézanne',
+  yearOfBirth: '1839',
+  yearOfDeath: '1906',
+  distanceBetween: 'French, Aix-en-Provence 1839–1906 Aix-en-Provence' }
+object at index 578 { id: 435878,
+  title: 'Mont Sainte-Victoire',
+  from: 1902,
+  to: 1906,
+  name: 'Paul Cézanne',
+  yearOfBirth: '1839',
+  yearOfDeath: '1906',
+  distanceBetween: 'French, Aix-en-Provence 1839–1906 Aix-en-Provence' }
+object at index 580 { id: 437217,
+  title:
+   'Moses and Aaron before Pharaoh: An Allegory of the Dinteville Family',
+  from: 1537,
+  to: 1537,
+  name: 'Master of the Dinteville Allegory',
+  yearOfBirth: '1525',
+  yearOfDeath: '1575',
+  distanceBetween: 'Netherlandish or French, active mid-16th century' }
+object at index 582 { id: 435658,
+  title: 'Madonna and Child',
+  from: 1230,
+  to: 1239,
+  name: 'Berlinghiero',
+  yearOfBirth: '1228',
+  yearOfDeath: '1236',
+  distanceBetween: 'Italian, Lucca, active by 1228–died by 1236' }
+object at index 584 { id: 437432,
+  title: 'Tilla Durieux (Ottilie Godeffroy, 1880–1971)',
+  from: 1914,
+  to: 1914,
+  name: 'Auguste Renoir',
+  yearOfBirth: '1841',
+  yearOfDeath: '1919',
+  distanceBetween: 'French, Limoges 1841–1919 Cagnes-sur-Mer' }
+object at index 586 { id: 436032,
+  title: 'The Legend of Cloelia',
+  from: 1475,
+  to: 1485,
+  name: 'Guidoccio di Giovanni Cozzarelli',
+  yearOfBirth: '1450',
+  yearOfDeath: '1516',
+  distanceBetween: 'Italian, Sienese, 1450–1516' }
+object at index 588 { id: 436036,
+  title: 'Johann (1498–1537), Duke of Saxony',
+  from: 1534,
+  to: 1537,
+  name: 'Lucas Cranach the Elder',
+  yearOfBirth: '1472',
+  yearOfDeath: '1553',
+  distanceBetween: 'German, Kronach 1472–1553 Weimar' }
+object at index 590 { id: 437430,
+  title: 'By the Seashore',
+  from: 1883,
+  to: 1883,
+  name: 'Auguste Renoir',
+  yearOfBirth: '1841',
+  yearOfDeath: '1919',
+  distanceBetween: 'French, Limoges 1841–1919 Cagnes-sur-Mer' }
+object at index 592 { id: 437510,
+  title: 'Portrait of a Man',
+  from: 1481,
+  to: 1482,
+  name: 'Cosimo Rosselli',
+  yearOfBirth: '1440',
+  yearOfDeath: '1507',
+  distanceBetween: 'Italian, Florence 1440–1507 Florence' }
+object at index 594 { id: 435859,
+  title: 'The Adoration of the Shepherds',
+  from: 1506,
+  to: 1531,
+  name: 'Catena (Vincenzo di Biagio)',
+  yearOfBirth: '1506',
+  yearOfDeath: '1531',
+  distanceBetween: 'Italian, Venetian, active by 1506–died 1531' }
+object at index 596 { id: 435981,
+  title: 'Reverie',
+  from: 1855,
+  to: 1870,
+  name: 'Camille Corot',
+  yearOfBirth: '1796',
+  yearOfDeath: '1875',
+  distanceBetween: 'French, Paris 1796–1875 Paris' }
+object at index 598 { id: 436030,
+  title: 'Soap Bubbles',
+  from: 1859,
+  to: 1859,
+  name: 'Thomas Couture',
+  yearOfBirth: '1815',
+  yearOfDeath: '1879',
+  distanceBetween: 'French, Senlis 1815–1879 Villiers-le-Bel' }
+object at index 600 { id: 435852,
+  title: 'Two Children Teasing a Cat',
+  from: 1587,
+  to: 1588,
+  name: 'Annibale Carracci',
+  yearOfBirth: '1560',
+  yearOfDeath: '1609',
+  distanceBetween: 'Italian, Bologna 1560–1609 Rome' }
+object at index 602 { id: 437333,
+  title: 'Pilate Washing His Hands',
+  from: 1663,
+  to: 1663,
+  name: 'Mattia Preti (Il Cavalier Calabrese)',
+  yearOfBirth: '1613',
+  yearOfDeath: '1699',
+  distanceBetween: 'Italian, Taverna 1613–1699 Valletta' }
+object at index 604 { id: 437222,
+  title: 'Saint Ursula and Her Maidens',
+  from: 1405,
+  to: 1415,
+  name: 'Niccolò di Pietro',
+  yearOfBirth: '1394',
+  yearOfDeath: '1430',
+  distanceBetween: 'Italian, Venetian, active 1394–1427/30' }
+object at index 606 { id: 438816,
+  title: 'The Forest in Winter at Sunset',
+  from: 1846,
+  to: 1867,
+  name: 'Théodore Rousseau',
+  yearOfBirth: '1812',
+  yearOfDeath: '1867',
+  distanceBetween: 'French, Paris 1812–1867 Barbizon' }
+object at index 608 { id: 436000,
+  title:
+   'Madame Frederic Breyer (Fanny Hélène Van Bruyssel, 1830–1894)',
+  from: 1858,
+  to: 1858,
+  name: 'Gustave Courbet',
+  yearOfBirth: '1819',
+  yearOfDeath: '1877',
+  distanceBetween: 'French, Ornans 1819–1877 La Tour-de-Peilz' }
+object at index 610 { id: 435922,
+  title: 'Salisbury Cathedral from the Bishop\'s Grounds',
+  from: 1820,
+  to: 1830,
+  name: 'John Constable',
+  yearOfBirth: '1776',
+  yearOfDeath: '1837',
+  distanceBetween: 'British, East Bergholt 1776–1837 Hampstead' }
+object at index 612 { id: 437481,
+  title: 'Wandering Minstrels',
+  from: 1753,
+  to: 1808,
+  name: 'Hubert Robert',
+  yearOfBirth: '1733',
+  yearOfDeath: '1808',
+  distanceBetween: 'French, Paris 1733–1808 Paris' }
+object at index 614 { id: 435897,
+  title: 'Head of Christ',
+  from: 1440,
+  to: 1450,
+  name: 'Petrus Christus',
+  yearOfBirth: '1444',
+  yearOfDeath: '1476',
+  distanceBetween:
+   'Netherlandish, Baarle-Hertog (Baerle-Duc), active by 1444–died 1475/76 Bruges' }
+object at index 616 { id: 435762,
+  title: 'Virgin and Child',
+  from: 1455,
+  to: 1460,
+  name: 'Dieric Bouts',
+  yearOfBirth: '1457',
+  yearOfDeath: '1475',
+  distanceBetween: 'Netherlandish, Haarlem, active by 1457–died 1475' }
+object at index 618 { id: 435718,
+  title: 'A Young Woman at Her Toilet with a Maid',
+  from: 1650,
+  to: 1651,
+  name: 'Gerard ter Borch the Younger',
+  yearOfBirth: '1617',
+  yearOfDeath: '1681',
+  distanceBetween: 'Dutch, Zwolle 1617–1681 Deventer' }
+object at index 620 { id: 437202,
+  title: 'Christ Bearing the Cross',
+  from: 1465,
+  to: 1475,
+  name: 'North Netherlandish (Utrecht?) Painter',
+  yearOfBirth: '',
+  yearOfDeath: '',
+  distanceBetween: 'ca. 1470' }
+object at index 622 { id: 436008,
+  title: 'Alphonse Promayet (1822–1872)',
+  from: 1851,
+  to: 1851,
+  name: 'Gustave Courbet',
+  yearOfBirth: '1819',
+  yearOfDeath: '1877',
+  distanceBetween: 'French, Ornans 1819–1877 La Tour-de-Peilz' }
+object at index 624 { id: 437480,
+  title: 'The Swing',
+  from: 1753,
+  to: 1808,
+  name: 'Hubert Robert',
+  yearOfBirth: '1733',
+  yearOfDeath: '1808',
+  distanceBetween: 'French, Paris 1733–1808 Paris' }
+object at index 626 { id: 437442,
+  title: 'Vsevolod Mikhailovich Garshin (1855–1888)',
+  from: 1884,
+  to: 1884,
+  name: 'Ilia Efimovich Repin',
+  yearOfBirth: '1844',
+  yearOfDeath: '1930',
+  distanceBetween: 'Russian, Chuguev 1844–1930 Kuokkala' }
+object at index 628 { id: 435881,
+  title: 'Still Life with a Ginger Jar and Eggplants',
+  from: 1893,
+  to: 1894,
+  name: 'Paul Cézanne',
+  yearOfBirth: '1839',
+  yearOfDeath: '1906',
+  distanceBetween: 'French, Aix-en-Provence 1839–1906 Aix-en-Provence' }
+object at index 630 { id: 435761,
+  title: 'Portrait of a Man',
+  from: 1465,
+  to: 1475,
+  name: 'Dieric Bouts',
+  yearOfBirth: '1457',
+  yearOfDeath: '1475',
+  distanceBetween: 'Netherlandish, Haarlem, active by 1457–died 1475' }
+object at index 632 { id: 436092,
+  title: 'Don Quixote and the Dead Mule',
+  from: 1828,
+  to: 1879,
+  name: 'Honoré Daumier',
+  yearOfBirth: '1808',
+  yearOfDeath: '1879',
+  distanceBetween: 'French, Marseilles 1808–1879 Valmondois' }
+object at index 634 { id: 435714,
+  title: 'Curiosity',
+  from: 1660,
+  to: 1662,
+  name: 'Gerard ter Borch the Younger',
+  yearOfBirth: '1617',
+  yearOfDeath: '1681',
+  distanceBetween: 'Dutch, Zwolle 1617–1681 Deventer' }
+object at index 636 { id: 436037,
+  title: 'The Judgment of Paris',
+  from: 1523,
+  to: 1533,
+  name: 'Lucas Cranach the Elder',
+  yearOfBirth: '1472',
+  yearOfDeath: '1553',
+  distanceBetween: 'German, Kronach 1472–1553 Weimar' }
+object at index 638 { id: 435888,
+  title: 'Soap Bubbles',
+  from: 1733,
+  to: 1734,
+  name: 'Jean Siméon Chardin',
+  yearOfBirth: '1699',
+  yearOfDeath: '1779',
+  distanceBetween: 'French, Paris 1699–1779 Paris' }
+object at index 640 { id: 435729,
+  title: 'Three Miracles of Saint Zenobius',
+  from: 1495,
+  to: 1505,
+  name: 'Botticelli (Alessandro di Mariano Filipepi)',
+  yearOfBirth: '1444',
+  yearOfDeath: '1510',
+  distanceBetween: 'Italian, Florence 1444/45–1510 Florence' }
+object at index 642 { id: 435739,
+  title: 'The Toilette of Venus',
+  from: 1751,
+  to: 1751,
+  name: 'François Boucher',
+  yearOfBirth: '1703',
+  yearOfDeath: '1770',
+  distanceBetween: 'French, Paris 1703–1770 Paris' }
+object at index 644 { id: 437262,
+  title:
+   'Henry Frederick (1594–1612), Prince of Wales, with Sir John Harington (1592–1614), in the Hunting Field',
+  from: 1603,
+  to: 1603,
+  name: 'Robert Peake the Elder',
+  yearOfBirth: '1546',
+  yearOfDeath: '1619',
+  distanceBetween: 'British, ca. 1551–1619 London' }
+object at index 646 { id: 436040,
+  title: 'Portrait of a Man with a Rosary',
+  from: 1503,
+  to: 1513,
+  name: 'Lucas Cranach the Elder',
+  yearOfBirth: '1472',
+  yearOfDeath: '1553',
+  distanceBetween: 'German, Kronach 1472–1553 Weimar' }
+object at index 648 { id: 436076,
+  title: 'The Pardon in Brittany',
+  from: 1886,
+  to: 1886,
+  name: 'Pascal-Adolphe-Jean Dagnan-Bouveret',
+  yearOfBirth: '1852',
+  yearOfDeath: '1929',
+  distanceBetween: 'French, Paris 1852–1929 Quincey' }
+object at index 650 { id: 435851,
+  title: 'The Meditation on the Passion',
+  from: 1485,
+  to: 1495,
+  name: 'Vittore Carpaccio',
+  yearOfBirth: '1460',
+  yearOfDeath: '1526',
+  distanceBetween: 'Italian, Venice 1460/66?–1525/26 Venice' }
+object at index 652 { id: 435898,
+  title: 'The Lamentation',
+  from: 1445,
+  to: 1455,
+  name: 'Petrus Christus',
+  yearOfBirth: '1444',
+  yearOfDeath: '1476',
+  distanceBetween:
+   'Netherlandish, Baarle-Hertog (Baerle-Duc), active by 1444–died 1475/76 Bruges' }
+object at index 654 { id: 437272,
+  title: 'The Resurrection',
+  from: 1497,
+  to: 1507,
+  name: 'Perugino (Pietro di Cristoforo Vannucci)',
+  yearOfBirth: '1469',
+  yearOfDeath: '1523',
+  distanceBetween:
+   'Italian, Città della Pieve, active by 1469–died 1523 Fontignano' }
+object at index 656 { id: 437332,
+  title: 'Girl with Cherries',
+  from: 1491,
+  to: 1495,
+  name: 'Marco d\'Oggiono',
+  yearOfBirth: '1462',
+  yearOfDeath: '1524',
+  distanceBetween: 'Italian, Milan ca. 1467–1524 Milan' }
+object at index 658 { id: 435885,
+  title: 'View of the Domaine Saint-Joseph',
+  from: 1886,
+  to: 1889,
+  name: 'Paul Cézanne',
+  yearOfBirth: '1839',
+  yearOfDeath: '1906',
+  distanceBetween: 'French, Aix-en-Provence 1839–1906 Aix-en-Provence' }
+object at index 660 { id: 436091,
+  title: 'The Laundress',
+  from: 1863,
+  to: 1863,
+  name: 'Honoré Daumier',
+  yearOfBirth: '1808',
+  yearOfDeath: '1879',
+  distanceBetween: 'French, Marseilles 1808–1879 Valmondois' }
+object at index 662 { id: 437276,
+  title: 'Madonna and Child with Six Saints',
+  from: 1447,
+  to: 1449,
+  name: 'Pesellino (Francesco di Stefano)',
+  yearOfBirth: '1422',
+  yearOfDeath: '1457',
+  distanceBetween: 'Italian, Florence ca. 1422–1457 Florence' }
+object at index 664 { id: 435880,
+  title: 'Rocks in the Forest',
+  from: 1890,
+  to: 1899,
+  name: 'Paul Cézanne',
+  yearOfBirth: '1839',
+  yearOfDeath: '1906',
+  distanceBetween: 'French, Aix-en-Provence 1839–1906 Aix-en-Provence' }
+object at index 666 { id: 435870,
+  title:
+   'Antoine Dominique Sauveur Aubert (born 1817), the Artist\'s Uncle',
+  from: 1866,
+  to: 1866,
+  name: 'Paul Cézanne',
+  yearOfBirth: '1839',
+  yearOfDeath: '1906',
+  distanceBetween: 'French, Aix-en-Provence 1839–1906 Aix-en-Provence' }
+object at index 668 { id: 437290,
+  title: 'Madonna and Child with Angels',
+  from: 1420,
+  to: 1420,
+  name: 'Pietro di Domenico da Montepulciano',
+  yearOfBirth: '1400',
+  yearOfDeath: '1424',
+  distanceBetween: 'Italian, Marchigian, active first quarter 15th century' }
+object at index 670 { id: 437273,
+  title: 'Saint John the Baptist; Saint Lucy',
+  from: 1469,
+  to: 1523,
+  name: 'Perugino (Pietro di Cristoforo Vannucci)',
+  yearOfBirth: '1469',
+  yearOfDeath: '1523',
+  distanceBetween:
+   'Italian, Città della Pieve, active by 1469–died 1523 Fontignano' }
+object at index 672 { id: 435728,
+  title: 'The Last Communion of Saint Jerome',
+  from: 1490,
+  to: 1493,
+  name: 'Botticelli (Alessandro di Mariano Filipepi)',
+  yearOfBirth: '1444',
+  yearOfDeath: '1510',
+  distanceBetween: 'Italian, Florence 1444/45–1510 Florence' }
+object at index 674 { id: 435640,
+  title: 'Madonna Adoring the Sleeping Child',
+  from: 1460,
+  to: 1463,
+  name: 'Giovanni Bellini',
+  yearOfBirth: '1459',
+  yearOfDeath: '1516',
+  distanceBetween: 'Italian, Venice, active by 1459–died 1516 Venice' }
+object at index 676 { id: 435877,
+  title:
+   'Mont Sainte-Victoire and the Viaduct of the Arc River Valley',
+  from: 1882,
+  to: 1885,
+  name: 'Paul Cézanne',
+  yearOfBirth: '1839',
+  yearOfDeath: '1906',
+  distanceBetween: 'French, Aix-en-Provence 1839–1906 Aix-en-Provence' }
+object at index 678 { id: 437388,
+  title:
+   'Portrait of a Woman, probably a Member of the Van Beresteyn Family',
+  from: 1632,
+  to: 1632,
+  name: 'Rembrandt (Rembrandt van Rijn)',
+  yearOfBirth: '1606',
+  yearOfDeath: '1669',
+  distanceBetween: 'Dutch, Leiden 1606–1669 Amsterdam' }
+object at index 680 { id: 435724,
+  title: 'The Adoration of the Magi',
+  from: 1470,
+  to: 1480,
+  name: 'Hieronymus Bosch',
+  yearOfBirth: '1450',
+  yearOfDeath: '1516',
+  distanceBetween:
+   'Netherlandish, ’s Hertogenbosch ca. 1450–1516 ’s Hertogenbosch' }
+object at index 682 { id: 435621,
+  title: 'Joan of Arc',
+  from: 1879,
+  to: 1879,
+  name: 'Jules Bastien-Lepage',
+  yearOfBirth: '1848',
+  yearOfDeath: '1884',
+  distanceBetween: 'French, Damvillers 1848–1884 Paris' }
+object at index 684 { id: 437329,
+  title: 'The Abduction of the Sabine Women',
+  from: 1633,
+  to: 1634,
+  name: 'Nicolas Poussin',
+  yearOfBirth: '1594',
+  yearOfDeath: '1665',
+  distanceBetween: 'French, Les Andelys 1594–1665 Rome' }
+object at index 686 { id: 437283,
+  title: 'A Hunting Scene',
+  from: 1494,
+  to: 1500,
+  name: 'Piero di Cosimo (Piero di Lorenzo di Piero d\'Antonio)',
+  yearOfBirth: '1462',
+  yearOfDeath: '1522',
+  distanceBetween: 'Italian, Florence 1462–1522 Florence' }
+object at index 688 { id: 435875,
+  title:
+   'Madame Cézanne (Hortense Fiquet, 1850–1922) in the Conservatory',
+  from: 1891,
+  to: 1891,
+  name: 'Paul Cézanne',
+  yearOfBirth: '1839',
+  yearOfDeath: '1906',
+  distanceBetween: 'French, Aix-en-Provence 1839–1906 Aix-en-Provence' }
+object at index 690 { id: 437487,
+  title:
+   'Francesco d\'Este (born about 1429, died after July 20, 1486)',
+  from: 1455,
+  to: 1465,
+  name: 'Rogier van der Weyden',
+  yearOfBirth: '1399',
+  yearOfDeath: '1464',
+  distanceBetween: 'Netherlandish, Tournai ca. 1399–1464 Brussels' }
+object at index 692 { id: 436106,
+  title:
+   'Antoine Laurent Lavoisier (1743–1794) and His Wife (Marie Anne Pierrette Paulze, 1758–1836)',
+  from: 1788,
+  to: 1788,
+  name: 'Jacques Louis David',
+  yearOfBirth: '1748',
+  yearOfDeath: '1825',
+  distanceBetween: 'French, Paris 1748–1825 Brussels' }
+object at index 694 { id: 435809,
+  title: 'The Harvesters',
+  from: 1565,
+  to: 1565,
+  name: 'Pieter Bruegel the Elder',
+  yearOfBirth: '1525',
+  yearOfDeath: '1569',
+  distanceBetween: 'Netherlandish, Breda (?) ca. 1525–1569 Brussels' }
+object at index 696 { id: 435702,
+  title: 'The Horse Fair',
+  from: 1852,
+  to: 1855,
+  name: 'Rosa Bonheur',
+  yearOfBirth: '1822',
+  yearOfDeath: '1899',
+  distanceBetween: 'French, Bordeaux 1822–1899 Thomery' }
