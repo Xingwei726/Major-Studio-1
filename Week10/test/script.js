@@ -27,11 +27,11 @@ var title = d3.select("svg")
 //Read the data
 d3.csv("data.csv", function(data) {
   d3.json("dataAll.json", function(imageData){
-    
-  })
+ 
+ 
   var myCountry = d3.map(data, function(d){return d.country;}).keys()
   var myMedium = d3.map(data, function(d){return d.medium;}).keys()
-  var myimg = d3.map(data, function(d){return d.url;}).keys()
+  // var myimg = d3.map(data, function(d){return d.primaryImage;}).keys()
 
   // X scales and axis:
   var x = d3.scaleBand()
@@ -75,6 +75,7 @@ d3.csv("data.csv", function(data) {
   // create a tooltip
   var tooltip = d3.select("#dataviz")
     .append("div")
+    // .attr("xlink:href", function(d) { return d.img;})
     .style("opacity", 0)
     .attr("class", "tooltip")
     .style("background-color", "white")
@@ -132,8 +133,13 @@ d3.csv("data.csv", function(data) {
       .style("opacity", 0.8)
     .on("mouseover", mouseover)
     .on("mousemove", mousemove)
-    .on("mouseleave", mouseleave)
-})
+    .on("mouseleave", mouseleave) 
+   
+ 
+ 
+  });
+
+});
 
 // Add title to graph
 title.append("text")
