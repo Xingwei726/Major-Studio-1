@@ -1,7 +1,3 @@
-//tool libraries
-// import tippy from 'tippy.js';
-// import 'tippy.js/dist/tippy.css';
-
 // set the dimensions and margins of the graph
 const H = window.innerHeight;
 const W = window.innerWidth;
@@ -14,13 +10,14 @@ var xaxis = 1800;
 const r = 10;
 const rando = v => Math.min(v - 1.5 * r, Math.max(1.5 * r, Math.random() * v));
     
+    
 // append the svg object to the body of the page
 var svg = d3.select("#dataviz")
             .append("svg")
             // .attr("width", width + margin.left + margin.right)
             // .attr("height", height + margin.top*3 + margin.bottom*3)
             .attr("width", W)
-            .attr("height", H*2)
+            .attr("height", H*3)
             .append("g")
             // .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
             
@@ -31,14 +28,17 @@ var title = d3.select("svg")
             .attr("height", height)
             .append("g")
             .attr("transform", "translate(0," + margin.top + ")");
+
             
-            
+
+
 
 d3.json("dataAll.json").then(function(data){
     
  var yearData=[];
  var countryData =[];
  var mediumData = [];
+ var classificationData =[];
  var ageData = [];
  var nodes = data;
  
@@ -50,7 +50,6 @@ d3.json("dataAll.json").then(function(data){
  var nestedCountry = d3.nest()
                     .key(function(d){ return d.culture;})
                     .entries(data);
-                    
                     
  for (let i=0; i<data.length; i++) {
     let date = data[i].date;
@@ -72,7 +71,14 @@ d3.json("dataAll.json").then(function(data){
     mediumData.push(medium);
  }
  
- console.log(nodes); // Just for checking
+ for (let i=0; i<data.length; i++) {
+    let classification = data[i].classification;
+    classificationData.push(classification);
+ }
+
+
+// Console.log Just for checking 
+ console.log(nodes); 
  console.log(yearData);
  console.log(countryData);
  console.log(ageData);
@@ -80,33 +86,35 @@ d3.json("dataAll.json").then(function(data){
  console.log(nestedCountry); 
 
 
-// var force = d3.layout.force()
-//     .charge(-120)
-//     .linkDistance(20)
-//     .size([width, height])
-//     .nodes(d3.value(nodes))
-//     .on("tick",tick)
-
-//   force
-//       .nodes(nodes)
-//       .start();
-      
-//   var node = svg.selectAll(".node")
-//       .data(force.nodes())
-//       .enter().append("circle")
-//       .attr("class", "node")
-//       .attr("r", 5)
-//       .style("fill", "blue" );
-
-// function tick (e) {
-       
-//     node.attr("cx", function(d) { return d.x; })
-//         .attr("cy", function(d) { return d.y; })
-//         .call(force.drag);
-//   };
 
 
+var x = d3.scaleBand()
+    .domain(countryData)
+    .range([ 0, width ])
+    .padding(0.15);
 
+  svg.append("g")
+    .style("font-size", 15)
+    .attr("transform", "translate(0, 40)")
+    .call(d3.axisBottom(x).tickSize(0))
+    .select(".domain").remove()
+  svg.append("g")
+    .style("font-size", 15)
+    .attr("transform", "translate(0, 1400)")
+    .call(d3.axisBottom(x).tickSize(0))
+    .select(".domain").remove()
+
+// var y = d3.scaleBand()
+//     .range([ height*2, 0 ])
+//     .domain(classificationData)
+//     .paddingInner(0.05);
+    
+//   svg.append("g")
+//     .style("font-size", 12)
+//     .attr("transform", "translate(60, 80)")
+//     .call(d3.axisLeft(y).tickSize(0))
+//     .select(".domain").remove()
+    
 
 //color
 var myColor = d3.scaleSequential()
@@ -130,11 +138,15 @@ var myColor = d3.scaleSequential()
   var mouseover = function(data) {
     tooltip
       .style("opacity", 1)
+      .transition()
+      .duration(100)
     d3.select(this)
       .style("stroke", "black")
       .attr("r", 40 )
       .style("stroke-width","2px")
       .style("opacity", 1)
+      .transition()
+      .duration(750)
     svg.append('div')
         .attr('class', 'image')
         .data(data)
@@ -157,10 +169,16 @@ var myColor = d3.scaleSequential()
     tooltip
       .style("opacity", 0)
     d3.select(this)
-      .attr("r", 10 )
-
+      .attr("r", 20 )
       .style("stroke", "none")
       .style("opacity", 0.8)
+      
+      
+    apple.transition()
+         .attr("cx", function(d) { return x(d.culture)+60 })
+         .attr("cy", function(d,i) { return i*20 })
+         .duration(1000)
+         .ease(d3.easeIn)
   }
   
   
@@ -169,16 +187,16 @@ var myColor = d3.scaleSequential()
 
  
 // Draw Shapes                    
-    svg.selectAll("cirlce")
+var apple = svg.selectAll("cirlce")
     .data(data)
     .enter()
     
     .append("circle")
       .attr("cx", d => rando(width))
       .attr("cy", d => rando(height*2))
-      // .attr("rx", 4)
-      // .attr("ry", 4)
-      .attr("r", 10 )
+      // .attr("cx", function(d) { return x(d.culture)+60 })
+      // .attr("cy", function(d,i) { return i*20 })
+      .attr("r", 20 )
       .style("fill","blue")
       .style("fill-opacity", 0.5)
       // .style("fill", function(data) { return myColor(data.date)} )
@@ -190,9 +208,27 @@ var myColor = d3.scaleSequential()
     .on("mousemove", mousemove)
     .on("mouseleave", mouseleave)
     .on('click', function(d, i) {
-      window.location.href = d.metURL;
-    });
+      window.open(d.metURL);
+      const el = d3.select(this);
+       el.transition()
+      .duration(750)
 
+      // .attr("cx",function(d) { return x(d.culture)+30 })
+      // .attr("cy", function(d) { return y2(d.date) +800 })
+      .on("end", function() {
+        d3.select(this)
+          .transition()
+          	   	.attr("x", 50)
+		  .attr("y", 50)
+          // .attr("fill", "black");
+      });
+    });
+    
+
+    
 
     
 })
+
+
+

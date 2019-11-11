@@ -1,0 +1,330 @@
+// Setup Scrolly
+var main = d3.select('main')
+var scrolly = main.select('#scrolly');//all contents
+var figure = scrolly.select('figure'); // all figures
+var article = scrolly.select('article');//all steps
+var step = article.selectAll('.step'); // step inside article
+
+
+
+
+// set the dimensions and margins of the graph
+const H = window.innerHeight;
+const W = window.innerWidth;
+var margin = {top: 80, right: 50, bottom: 30, left: 65};
+var padding = {top: 80, right: 50, bottom: 30, left: 65};
+var width = window.innerWidth - margin.left - margin.right;
+var height = window.innerHeight - margin.top - margin.bottom;
+var xaxis = 1800;
+
+const r = 10;
+const rando = v => Math.min(v - 1.5 * r, Math.max(1.5 * r, Math.random() * v));
+    
+    
+// append the svg object to the body of the page
+var svg = d3.select("#dataviz")
+            .append("svg")
+            // .attr("width", width + margin.left + margin.right)
+            // .attr("height", height + margin.top*3 + margin.bottom*3)
+            .attr("width", W)
+            .attr("height", H*3)
+            .append("g")
+            // .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+            
+var title = d3.select("svg")
+            .attr("class","title")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .append("g")
+            .attr("transform", "translate(0," + margin.top + ")");
+
+            
+
+
+
+d3.json("dataAll.json").then(function(data){
+    
+ var yearData=[];
+ var countryData =[];
+ var mediumData = [];
+ var classificationData =[];
+ var ageData = [];
+ var nodes = data;
+ 
+
+ var nestedClassification = d3.nest() //group data together
+                    .key(function(d){ return d.classification;})
+                    .entries(data);
+                    
+ var nestedCountry = d3.nest()
+                    .key(function(d){ return d.culture;})
+                    .entries(data);
+                    
+ for (let i=0; i<data.length; i++) {
+    let date = data[i].date;
+    yearData.push(date);
+ }
+ 
+ for (let i=0; i<data.length; i++) {
+    let age = 2019-(data[i].date);
+    ageData.push(age);
+ }
+ 
+ for (let i=0; i<data.length; i++) {
+    let culture = data[i].culture;
+    countryData.push(culture);
+ }
+ 
+ for (let i=0; i<data.length; i++) {
+    let medium = data[i].medium;
+    mediumData.push(medium);
+ }
+ 
+ for (let i=0; i<data.length; i++) {
+    let classification = data[i].classification;
+    classificationData.push(classification);
+ }
+
+
+// Console.log Just for checking 
+ console.log(nodes); 
+ console.log(yearData);
+ console.log(countryData);
+ console.log(ageData);
+ console.log(nestedClassification);
+ console.log(nestedCountry); 
+
+
+
+
+var x = d3.scaleBand()
+    .domain(countryData)
+    .range([ 0, width ])
+    .padding(0.15);
+
+  svg.append("g")
+    .style("font-size", 15)
+    .attr("transform", "translate(0, 40)")
+    .call(d3.axisBottom(x).tickSize(0))
+    .select(".domain").remove()
+  svg.append("g")
+    .style("font-size", 15)
+    .attr("transform", "translate(0, 1400)")
+    .call(d3.axisBottom(x).tickSize(0))
+    .select(".domain").remove()
+
+// var y = d3.scaleBand()
+//     .range([ height*2, 0 ])
+//     .domain(classificationData)
+//     .paddingInner(0.05);
+    
+//   svg.append("g")
+//     .style("font-size", 12)
+//     .attr("transform", "translate(60, 80)")
+//     .call(d3.axisLeft(y).tickSize(0))
+//     .select(".domain").remove()
+    
+
+//color
+var myColor = d3.scaleSequential()
+    .domain([-4000,1000,2000])
+    .interpolator(d3.interpolateInferno)
+
+
+//tooltip
+  var tooltip = d3.select("#dataviz")
+    .append("div")
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+    .style("background-color", "white")
+    .style("position", "absolute")
+    .style("display","inline")
+    .style("border", "solid")
+    .style("border-width", "1px")
+    .style("border-radius", "5px")
+    .style("padding", "6px")
+
+  var mouseover = function(data) {
+    tooltip
+      .style("opacity", 1)
+      .transition()
+      .duration(100)
+    d3.select(this)
+      .style("stroke", "black")
+      .attr("r", 40 )
+      .style("stroke-width","2px")
+      .style("opacity", 1)
+      .transition()
+      .duration(750)
+    svg.append('div')
+        .attr('class', 'image')
+        .data(data)
+        .enter()
+        .append('img')
+        .attr('src', data => {
+            return '../images/' + data.filename;
+        });
+  }
+  
+  var mousemove = function(data) {
+    tooltip
+      .html("This apple was born in " + data.date + ".")
+          // .attr("xlink:href", function(d) { return d.img;})
+      .style("left", (d3.mouse(this)[0]+40) + "px")
+      .style("top", (d3.mouse(this)[1]+1000) + "px")//+150 reduce the distance between tooltip and mouse
+  }
+  
+  var mouseleave = function(data) {
+    tooltip
+      .style("opacity", 0)
+    d3.select(this)
+      .attr("r", 20 )
+      .style("stroke", "none")
+      .style("opacity", 0.8)
+  }
+  
+  
+
+  
+
+ 
+// Draw Shapes                    
+    svg.selectAll("cirlce")
+    .data(data)
+    .enter()
+    
+    .append("circle")
+      .attr("cx", d => rando(width))
+      .attr("cy", d => rando(height*2))
+      // .attr("cx", function(d) { return x(d.culture)+60 })
+      // .attr("cy", function(d,i) { return i*20 })
+      .attr("r", 20 )
+      .style("fill","blue")
+      .style("fill-opacity", 0.5)
+      // .style("fill", function(data) { return myColor(data.date)} )
+      .attr("transform", "translate(55, 110)")
+      .style("stroke-width", 4)
+      .style("stroke", "none")
+      .style("opacity", 0.8)
+    .on("mouseover", mouseover)
+    .on("mousemove", mousemove)
+    .on("mouseleave", mouseleave)
+    .on('click', function(d, i) {
+      window.open(d.metURL);
+      const el = d3.select(this);
+       el.transition()
+      .duration(750)
+
+      // .attr("cx",function(d) { return x(d.culture)+30 })
+      // .attr("cy", function(d) { return y2(d.date) +800 })
+      .on("end", function() {
+        d3.select(this)
+          .transition()
+          	   	.attr("x", 50)
+		  .attr("y", 50)
+          // .attr("fill", "black");
+      });
+    });
+    
+})
+
+
+
+
+// initialize the scrollama
+var scroller = scrollama();
+d3.selectAll("figure")
+
+
+// generic window resize listener event
+function handleResize() {
+  // Height of step elements
+  var stepH = Math.floor(window.innerHeight * 1);
+  step.style('height', stepH + 'px');
+  var figureHeight = window.innerHeight
+  var figureMarginTop = ((window.innerHeight - figureHeight) / 2)+30
+
+  figure
+    .style('height', figureHeight + 'px')
+    .style('top', figureMarginTop + 'px');
+
+
+  // Tell scrollama to update new element dimensions
+  scroller.resize();
+}
+
+// scrollama event handlers
+function handleStepEnter(response) {
+  console.log(response)
+  // response = { element, direction, index }
+
+  // add color to current step only
+  step.classed('is-active', function (d, i) {
+    return i === response.index;
+  })
+
+  // update graphic based on step
+  figure.select('p').text(response.index + 1);
+  
+}
+
+function handleStepEnter2(response) {
+  console.log(response)
+  // response = { element, direction, index }
+
+  // add color to current step only
+  step.classed('is-active', function (d, i) {
+    return i === response.index;
+  })
+
+  // update graphic based on step
+  figure.select('p').text(response.index + 1);
+  
+}
+
+
+
+
+function setupStickyfill() {
+  d3.selectAll('.sticky').each(function () {
+    Stickyfill.add(this);
+  });
+}
+
+function init() {
+  setupStickyfill();
+  handleResize();
+  scroller.setup({
+    step: '#scrolly article .step',
+    offset: 0.2,
+    debug: false,
+  })
+    .onStepEnter(handleStepEnter)
+
+
+  // setup resize event
+  window.addEventListener('resize', handleResize);
+}
+
+// kick things off
+init();
+
+
+// append the svg object to the body of the page
+var graph = d3.select("#graph")
+            .append('div')
+            .attr('class', 'step1graph')
+            .append("svg")
+            // .attr("width", width + margin.left + margin.right)
+            // .attr("height", height + margin.top*3 + margin.bottom*3)
+            .attr("width", W/2)
+            .attr("height", H/2)
+            .append("g")
+            // .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    graph.append("circle")
+      .attr("cx", 30)
+      .attr("cy", 20)
+      .attr("r", 20 )
+      .style("fill","blue")
+      .style("fill-opacity", 0.5)
