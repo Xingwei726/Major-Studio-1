@@ -1,3 +1,39 @@
+.scroll-downs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width :34px;
+  height: 55px;
+}
+.mousey {
+  margin-top:300px;
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #194F39;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #194F39;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(10px); opacity: 0;}
+}
+
 /*Styles For Intro Section*/
 h1{
   font-family: 'Anton', sans-serif;
@@ -83,6 +119,30 @@ p {
   color:#194F39;
 }
 
+li {
+  list-style: none;
+  text-align: left;
+  margin:none;
+  font-size: 1rem;
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.5rem;
+  text-align: left;
+  color:#194F39;
+  
+}
+
+li > em {
+  font-weight:700;
+  font-style: normal;
+}
+
+.tooltip{
+  font-family: 'Rubik', sans-serif;
+  font-size: 12px;
+  line-height: 1rem;
+  text-align: left;
+  color:#194F39;
+}
 
 
 #intro {
@@ -324,7 +384,8 @@ figure  p {
 
 p > em1 {
   font-family: 'Anton', sans-serif;
-  font-size: 70px;
+  font-size: 90px;
+  margin-top: 50px;
   /*line-height: 95%;*/
   /*text-align: left;*/
   /*margin-left: -30px;*/
@@ -333,12 +394,17 @@ p > em1 {
 
 p > em2 {
   font-family: 'Anton', sans-serif;
-  font-size: 70px;
+  font-size: 90px;
+  margin-top: 50px;
   /*line-height: 95%;*/
   /*text-align: left;*/
   /*margin-left: -30px;*/
   color:#194F39;
 }
+
+
+
+
 
 #graph #dataviz2{
   position: -webkit-sticky;
@@ -359,6 +425,7 @@ p > em2 {
   top: 50%;
   left: 50%;
   margin-left: 200px;
+  padding-top: 400px;
   -moz-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);

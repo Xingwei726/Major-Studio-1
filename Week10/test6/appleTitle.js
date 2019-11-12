@@ -121,12 +121,12 @@ var appleTitle = d3.select("#dataviz2")
     }
  }
 
-//  appleTitle.append('div')
-//       .attr("class", "numbertext")
-//       .append("text")
-//       .text("204")
-//       .attr("x", 0)
-//       .attr("dy", 100)
+ appleTitle.append('div')
+      .attr("class", "numbertext")
+      .append("text")
+      .text("204")
+      .attr("x", 0)
+      .attr("dy", 100)
 
 
 
