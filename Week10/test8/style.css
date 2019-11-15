@@ -120,8 +120,12 @@ h1 > em {
   text-align: left;
   margin-left: -30px;
   color:#FBAAB8;
+  /*font-style:normal;*/
 }
 
+#find h3 {
+  text-align: center;
+}
 
 p {
   text-align: left;
