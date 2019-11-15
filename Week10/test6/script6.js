@@ -79,8 +79,8 @@ d3.json("dataAll.json").then(function(data){
 
 // Console.log Just for checking 
 // console.log(nodes); 
- console.log(yearData);
-// console.log(countryData);
+//  console.log(yearData);
+console.log(countryData);
 // console.log(ageData);
 // console.log(mediumData);
 console.log(nestedClassification);
@@ -162,16 +162,6 @@ var myColor = d3.scaleSequential()
 
       .transition()
       .duration(750)
-    svg.append('div')
-        .attr('class', 'image')
-        .data(data)
-        .enter()
-        .append('img')
-        .attr('src', data => {
-            return '../images/' + data.filename;
-        })
-        .attr('width', 200)
-        .attr('height', 200)
   }
   
   var mousemove = function(data) {
@@ -215,30 +205,28 @@ var myColor = d3.scaleSequential()
 var apple = svg.selectAll("cirlce")
     .data(data)
     .enter()
+
     
     .append("circle")
       .attr("cx", d => rando(width))
       .attr("cy", d => rando(height*2))
-      // .attr("cx", function(d) { return x(d.culture)+60 })
-      // .attr("cy", function(d,i) { return i*20 })
       .attr("r", 40 )
       .style("fill","#FBAAB8")
       .style("fill-opacity", 1)
-      // .style("fill", function(data) { return myColor(data.date)} )
       .attr("transform", "translate(55, 110)")
       .style("stroke-width", 4)
       .style("stroke", "none")
       .style("opacity", 0.8)
-    .on("mouseover", mouseover)
-    .on("mousemove", mousemove)
-    .on("mouseleave", mouseleave)
-    .on('click', function(d, i) {
-      window.open(d.metURL);
-      const el = d3.select(this);
-       el.transition()
-      .duration(750)
-    });
-    
+      .on("mouseover", mouseover)
+      .on("mousemove", mousemove)
+      .on("mouseleave", mouseleave)
+      .on('click', function(d, i) {
+        window.open(d.metURL);
+        const el = d3.select(this);
+         el.transition()
+        .duration(750)
+      });
+      
 
     
 

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equix="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Apple of My Eyes</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="../libraries/noframework.waypoints.min.js"></script>
+    <script src="https://unpkg.com/enter-view"></script>
+    <!--<script src="https://d3js.org/d3.v4.js"></script>-->
+    <script src="https://d3js.org/d3.v5.js"></script>
+
+</head>
+
+<body style="background-color:#FFFAF0;">
+    <main>
+
+        <div id="scroll-bar"></div>
+        <!-- <div id="container">SCROLL</div> -->
+        <!--Stepper-->
+        <div class="stepper"><svg id="stepper" width="100%" height="100%"></svg></div>
+
+
+        <div id="graphic">
+
+
+            <!--1. Intro Section -->
+            <div id="intro">
+
+                <!-- 1.1 Intro Text -->
+                <h1>APPLE <em>of</em> <br /> THE MET</h1>
+                <p>Art has often being utilized as a mirror to reflect our history, it’s a pair of lenses which enable
+                    us to look deepen into our culture to see what was popular around which time period, also help us
+                    questioning why? <br /> And Apple appears in many religious traditions, often as a mystical or
+                    forbidden fruit. Do you know how many artworks in the Met Museum depict an apple? Want to find out
+                    which one echoes with you? Let’s explore!</p>
+                <!--1.2 Scroller Animation-->
+                <div class="scroll-downs">
+                    <div class="mousey">
+                        <div class="scroller"></div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--2. All Apples Section -->
+            
+
+            <div id="allApple"></div>
+            <div id="allAppleText">
+                <p>Body Paragraph</p>
+            </div>
+            <div id="dataviz"></div>
+
+
+
+
+
+
+            <!--3. All Scrollable Sections-->
+            <div id='scrolly'>
+                <!-- 3.1 Text Area -->
+                <div id='content'>
+                    <div id="step1" data-step='1'>
+                        <h2>173</h2>
+                        <p>There are 173 identified “apples” in Met, they are neither made by well-known artists nor
+                            possesses a significant position in art history, but they are very diverse in terms of using
+                            media and formatting. </p>
+                    </div>
+                    <div id="step2" data-step='2'>
+                        <h2>Titles</h2>
+                        <p>Some of these artworks have the word 'apple' in their title while others don't.</p>
+                        <h3>Hover to see distributions ---></h3>
+                    </div>
+                    <div id="step3" data-step='3'>
+                        <!--<h2>Distribution</h2>-->
+                        <p>
+                            <em1>87 / </em1>
+                            <em2>117</em2>
+                        </p>
+                        <p>Among these artworks only 87 of them have the word ‘apple’ in their titles, these artworks
+                            either depict
+                            apple as the ‘protagonist’ of the picture or it’s been given symbolic meanings. <br />
+                            <p>117 of them don't prounuce 'apple' in their names but apple is one of the subjects that's
+                                been hidden in the artwork, quietly playing it's supporting part.</p>
+                    </div>
+                </div>
+
+                <!--3.1 Sticky Graphic Area-->
+                <figure id="graph">
+                    <figure id="dataviz2"></figure>
+                    <!--<p><em1>87 / </em1><em2>117</em2></p>-->
+                </figure>
+
+            </div>
+
+
+            <div id='scrolly2'>
+                
+                <!-- 3.2 Text Area -->
+                <div id='content2'>
+                    <div id="step4" data-step='4'>
+                        <h2>Mediums</h2>
+                        <p> These 'apples' were made out of different materials, the Met collection included apples of
+                            15 different mediums, such as painting, sculpture and textile. 31% of them have been
+                            classified as 'prints' which is the largest component. Below shows top five popular mediums
+                        </p>
+                    </div>
+
+                    <div id="step5" data-step='5'>
+                        <ul>
+                            <li>Prints(45)-----<em>31.82%</em></li><span></span>
+                            <li>Paintings(46)-----<em>24.24%</em></li>
+                            <li>Sculpture(23)-----<em>5.56%</em></li>
+                            <li>Porcelain(10)-----<em>5.05%</em></li>
+                            <li>Drawing(10)-----<em>4.55%</em></li>
+                        </ul>
+                    </div>
+
+                    <div id="step6" data-step='6'>
+                        <h2>Sizes</h2>
+                        <p> Body copy paragraph for sizes.</p>
+                    </div>
+                </div>
+
+                <!--3.2 Sticky Graphic Area-->
+                <figure id="graph2">
+                    <figure id="dataviz3"></figure>
+                </figure>
+            </div>
+            
+            
+            <!--4. Find Apple Test-->
+            <div id="find">
+                <h2>Where's the apple?</h2>
+                <p>Some of the apples are easy to spot while others are well-hidden inside the frame, challenge yourself to see how far can you go.</p>    
+                <nav>
+                    <a href="#page-1">1</a>
+                    <a href="#page-2">2</a>
+                    <a href="#page-3">3</a>
+                    <a href="#page-4">4</a>
+                    <a href="#page-5">5</a>
+                    <a href="#page-6">6</a>
+                    <a href="#page-7">7</a>
+                    <a href="#page-8">8</a>
+                    <a href="#page-9">9</a>
+                    <a href="#page-10">10</a>
+
+                    
+                </nav>
+                
+                <scroll-container>
+                    <scroll-page id="page-1">1</scroll-page>
+                    <scroll-page id="page-2">2</scroll-page>
+                    <scroll-page id="page-3">3</scroll-page>
+                    <scroll-page id="page-4">4</scroll-page>
+                    <scroll-page id="page-5">5</scroll-page>
+                    <scroll-page id="page-6">6</scroll-page>
+                    <scroll-page id="page-7">7</scroll-page>
+                    <scroll-page id="page-8">8</scroll-page>
+                    <scroll-page id="page-9">9</scroll-page>
+                    <scroll-page id="page-10">10</scroll-page>
+                </scroll-container>
+                
+                <div class="btn-group">
+                  <button class="btn back">Back</button>
+                  <button class="btn hint">Hint</button>
+                  <button class="btn next">Next</button>
+                </div>
+                                
+                <div id="findapple"></div> 
+                
+                
+            </div>
+
+
+
+
+
+
+    <!--close div tag for id graphic which contains all graphics beside stepper and scroll bar-->
+        </div>
+    </main>
+
+    <!-- References Links -->
+    <script src='https://unpkg.com/d3@5.9.1/dist/d3.min.js'></script>
+    <script src='https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js'></script>
+    <!--<script src="https://unpkg.com/enter-view"></script>-->
+    <script src='../libraries/stickyfill.min.js'></script>
+    <script src='../libraries/scrollama.min.js'></script>
+    <script src='https://d3js.org/d3.v5.min.js'></script>
+    <script src="../libraries/noframework.waypoints.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <!--<script src="scrolly.js"></script>-->
+    <script src="script8.js"></script>
+    <script src="appleTitle.js"></script>
+    <script src="appleMedium.js"></script>
+    <script src="findApple.js"></script>
+
+
+</body>
+
+
+
+
+
+
+</html>
+
