@@ -54,8 +54,8 @@ var svg3 = d3.select("#dataviz2")
 //   .domain([0, d3.max(data.date)])
 //   .interpolator(d3.interpolateRainbow);
 
-var myColor = d3.scaleLinear()
-  .domain([-3900,0,2000])
+var myColor = d3.scaleOrdinal()
+  .domain(["no","yes"])
   .range("#194F39","#FFFAF0");
 
 
@@ -66,7 +66,7 @@ var myColor = d3.scaleLinear()
                      .enter()
                      .append("circle")
                      .attr("r",10)
-                     .style("stroke","gray")
+                     .style("stroke","black")
                      .style("stroke-width", 1)
                      .style("fill","none")
                      .attr("transform", "translate(55, 110)")
@@ -147,18 +147,43 @@ function f4(){
     appleTitle.transition()
               .duration(1000)
               .ease(d3.easeElastic)
-              .style("fill",function(data) {
-      return myColor(data.date);
+              .style("stroke","none")
+              .style("fill",function(d,i) {
+               if(d.title=="Apple"){
+                   return "#FBAAB8"
+               } else {
+                   return "#194F39"
+               }
     })
 }
+
 
 function f5(){
     appleTitle.transition()
               .duration(1000)
               .ease(d3.easeElastic)
+            //   .attr("r",5)
               .attr("cx", function(d,i){
-                  return i*10
+                if (d.culture=="European"){
+                return 50
+                } else if (d.culture=="North American"){
+                return 100
+                } else if (d.culture=="Asian"){
+                return 150
+                } else if (d.culture=="Cypriot"){
+                return 200
+                } else if (d.culture=="roman"){
+                return 250   
+                }
               })
+              
+            // .attr("cy", function(d,i){
+            //     if (d.title=="Apple"){
+            //     return 10
+            //     } else {
+            //     return 50
+            //     }
+            // })
 }
 
 

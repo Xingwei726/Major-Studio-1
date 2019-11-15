@@ -6,7 +6,7 @@ var appleMedium = d3.select("#dataviz3")
             .attr("height", 1000)
             .append("g")
             
-  
+
             
  d3.json("dataAll.json").then(function(data){
     
@@ -60,7 +60,7 @@ var appleMedium = d3.select("#dataviz3")
 //color palette                    
  var colors = d3.scaleOrdinal()
     .domain(["painting", "earthenware", "porcelain", "sculpture", "ivory statue", "print","drawing", "terracotta", "silverwork","textile", "photograph", "metalwork","woodwork", "miniature", "dagger" ])
-    .range(["494D4E","#994E53","E7C3C1","#FF5400","FE9920","gold", "blue", "green", "yellow", "black", "grey", "darkgreen", "pink", "brown", "slateblue"]);
+    .range(["pink","red","purple","#FF5400","#75ba6c","gold", "blue", "green", "#803851", "black", "#d6d4d5", "darkgreen", "#96c9ff", "brown", "slateblue"]);
 
 
 
@@ -123,7 +123,7 @@ var appleMedium = d3.select("#dataviz3")
 var simulation = d3.forceSimulation(data)
         .force('center', d3.forceCenter().x(320).y(320))
         .force("charge", d3.forceManyBody().strength(-40))
-        .force("forceX", d3.forceX(width/2).strength(.1))
+        .force("forceX", d3.forceX(width/3).strength(.1))
         .force("forceY", d3.forceY().strength(.1))
         .alphaTarget(1)
         .on("tick", ticked);
@@ -158,9 +158,47 @@ function ticked() {
       .duration(750)
       
     })
+    // .attr('cy', function(d,i) {
+    //   return d.y
+    // })
+    
+    
+    
     
     u.exit().remove()
 }
+
+var legendPrint= d3.select("#legend1")
+              .append("circle")
+              .attr("r",5)
+              .attr("cx",10)
+              .attr("cy",14)
+              .style("fill","gold")
+var legendPaint= d3.select("#legend2")
+              .append("circle")
+              .attr("r",5)
+              .attr("cx",10)
+              .attr("cy",14)
+              .style("fill","pink")
+var legendSculpture= d3.select("#legend3")
+              .append("circle")
+              .attr("r",5)
+              .attr("cx",10)
+              .attr("cy",14)
+              .style("fill","#FF5400")
+var legendProcelain= d3.select("#legend4")
+              .append("circle")
+              .attr("r",5)
+              .attr("cx",10)
+              .attr("cy",14)
+              .style("fill","purple")
+var legendDrawing= d3.select("#legend5")
+              .append("circle")
+              .attr("r",5)
+              .attr("cx",10)
+              .attr("cy",14)
+              .style("fill","blue")
+
 
  
  

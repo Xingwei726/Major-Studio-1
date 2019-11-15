@@ -149,9 +149,10 @@ var tooltip = d3.select("#dataviz")
       .style("color", "white")
           // .attr("xlink:href", function(d) { return d.img;})
       .style("left", (d3.mouse(this)[0]+40) + "px")
-      .style("top", (d3.mouse(this)[1]+800) + "px")//+150 reduce the distance between tooltip and mouse
+      .style("top", (d3.mouse(this)[1]) + "px")//+150 reduce the distance between tooltip and mouse
        d3.select(this)
-    .transition()
+         .transition()
+         .ease(d3.easeElastic)
          .attr("width", 200)
          .attr("height", 200)
       
@@ -222,23 +223,40 @@ var mouseleave2 = function(data) {
           
         .transition()
         .duration(1000)
-
-  }
-
-
-// var line1 = svg.append("line")
+        
+//     var line1 = svg.append("line")
 //               .attr("x1", 145 )
 //               .attr("y1", 100)
 //               .attr("x2", 145)
 //               .attr("y2", 1000)
 //               .style("stroke", "black")
               
-// var line2 = svg.append("line")
+//   var line2 = svg.append("line")
 //               .attr("x1", 400 )
 //               .attr("y1", 100)
 //               .attr("x2", 400)
 //               .attr("y2", 1000)
 //               .style("stroke", "black")
+              
+//     var line3 = svg.append("line")
+//               .attr("x1", 700 )
+//               .attr("y1", 100)
+//               .attr("x2", 700)
+//               .attr("y2", 1000)
+//               .style("stroke", "black")
+              
+//   var line4 = svg.append("line")
+//               .attr("x1", 1000 )
+//               .attr("y1", 100)
+//               .attr("x2", 400)
+//               .attr("y2", 1000)
+//               .style("stroke", "black")              
+              
+
+  }
+
+
+
 
 // Draw Circle Images 
 
@@ -358,7 +376,7 @@ var apple2 = svg.selectAll("img")
         .style("opacity", 0.8)
 
         // .on("mouseover", mouseover)
-        // .on("mousemove", mousemove)
+        .on("mousemove", mousemove)
         .on("mouseleave", mouseleave)
         .on('click', function(d, i) {
             window.open(d.metURL);
