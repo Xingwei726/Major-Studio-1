@@ -105,7 +105,7 @@ var appleMedium = d3.select("#dataviz3")
       .style("opacity", 1)
       .style("color","white")
       .style("left", (d3.mouse(this)[0]+40) + "px")
-      .style("top", (d3.mouse(this)[0]+500) + "px")//+150 reduce the distance between tooltip and mouse
+      .style("top", (d3.mouse(this)[0]+300) + "px")//+150 reduce the distance between tooltip and mouse
   }
   
 

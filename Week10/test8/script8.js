@@ -10,7 +10,6 @@ const rando = v => Math.min(v - 1.5 * r, Math.max(1.5 * r, Math.random() * v));
     
     
 // append the svg object to the body of the page
-
 var svg2 = d3.select("#allApple")
             .append("svg")
             // .attr("width", width + margin.left + margin.right)
@@ -108,42 +107,76 @@ var tooltip = d3.select("#dataviz")
     .style("opacity", 1)
 
 
-  var mouseover = function(data) {
+//   var mouseover = function(data) {
+//     tooltip
+//       .transition()
+//       .duration(100)
+//       .style("opacity", 1)
+
+//     d3.select(this)
+//       .style("stroke", "#194F39")
+//       .attr("width", 400)
+//       .style("stroke-width","2px")
+//       .style("opacity", 1)
+//       .style("fill-opacity", 1)
+//       .transition()
+//       .duration(750)
+
+//   }
+  
+var mouseover2 = function(data) {
     tooltip
       .transition()
       .duration(100)
       .style("opacity", 1)
-
     d3.select(this)
       .style("stroke", "#194F39")
-      .attr("width", 400)
+      .attr("width", 200)
       .style("stroke-width","2px")
       .style("opacity", 1)
       .style("fill-opacity", 1)
       .transition()
       .duration(750)
-
   }
   
-  var mouseover2 = function(data) {
+  
+var mousemove2 = function(data) {
+    tooltip
+      .html("This apple was born in " + data.date + ".")
+      .style("color", "white")
+          // .attr("xlink:href", function(d) { return d.img;})
+      .style("left", (d3.mouse(this)[0]+60) + "px")
+      .style("top", (d3.mouse(this)[1]+800) + "px")//+150 reduce the distance between tooltip and mouse
+    d3.select(this)
+    .transition()
+    .ease(d3.easeElastic)
+         .attr("width", 150)
+         .attr("height", 150)
+        //  .attr("z-index", 173)
+}
+
+
+
+var mouseleave2 = function(data) {
     tooltip
       .transition()
       .duration(100)
-      .style("opacity", 1)
-
+      .style("opacity", 0)
+    
     d3.select(this)
-      .style("stroke", "#194F39")
-      .attr("width", 400)
-      .style("stroke-width","2px")
-      .style("opacity", 1)
-      .style("fill-opacity", 1)
-      .transition()
-      .duration(750)
+    .transition()
+    .ease(d3.easeElastic)
+         .attr("width", 80)
+         .attr("height", 80)
+         .style("fill-opacity", 1)
+         .attr("posotion", "relative")
+        //  .attr("z-index", 0)
 
-  }
+}  
   
   
-  var mousemove = function(data) {
+  
+var mousemove = function(data) {
     tooltip
       .html("This apple was born in " + data.date + ".")
       .style("color", "white")
@@ -158,34 +191,9 @@ var tooltip = d3.select("#dataviz")
       
   }
   
-
-var mousemove2 = function(data) {
-    tooltip
-      .html("This apple was born in " + data.date + ".")
-      .style("color", "white")
-          // .attr("xlink:href", function(d) { return d.img;})
-      .style("left", (d3.mouse(this)[0]+40) + "px")
-      .style("top", (d3.mouse(this)[1]+800) + "px")//+150 reduce the distance between tooltip and mouse
-    d3.select(this)
-    .transition()
-    .ease(d3.easeElastic)
-
-         .attr("width", 150)
-         .attr("height", 150)
-}
-
-var mouseleave2 = function(data) {
-    d3.select(this)
-    .transition()
-    .ease(d3.easeElastic)
-
-         .attr("width", 80)
-         .attr("height", 80)
-         .style("fill-opacity", 1)
-}  
   
-  
-  var mouseleave = function(data) {
+
+var mouseleave = function(data) {
 //     tooltip
 //       .style("opacity", 1)
 // //     d3.select(this)
@@ -199,7 +207,7 @@ var mouseleave2 = function(data) {
          .attr("y", function(d,i) { return i*10})
          .attr("width", 30)
          .attr("height", 30)
-         .attr("transform", "translate(40, 100)")
+         .attr("transform", "translate(37, 100)")
          .style("fill-opacity", 0.8)
          .duration(1500)
 
@@ -223,34 +231,6 @@ var mouseleave2 = function(data) {
           
         .transition()
         .duration(1000)
-        
-//     var line1 = svg.append("line")
-//               .attr("x1", 145 )
-//               .attr("y1", 100)
-//               .attr("x2", 145)
-//               .attr("y2", 1000)
-//               .style("stroke", "black")
-              
-//   var line2 = svg.append("line")
-//               .attr("x1", 400 )
-//               .attr("y1", 100)
-//               .attr("x2", 400)
-//               .attr("y2", 1000)
-//               .style("stroke", "black")
-              
-//     var line3 = svg.append("line")
-//               .attr("x1", 700 )
-//               .attr("y1", 100)
-//               .attr("x2", 700)
-//               .attr("y2", 1000)
-//               .style("stroke", "black")
-              
-//   var line4 = svg.append("line")
-//               .attr("x1", 1000 )
-//               .attr("y1", 100)
-//               .attr("x2", 400)
-//               .attr("y2", 1000)
-//               .style("stroke", "black")              
               
 
   }
@@ -259,7 +239,6 @@ var mouseleave2 = function(data) {
 
 
 // Draw Circle Images 
-
 
 var apple = svg2.selectAll("img")
     .data(data)
@@ -282,8 +261,9 @@ var apple = svg2.selectAll("img")
             el.transition()
             .duration(750)
         });
+  
     
- function f1(){
+function f1(){
     apple.transition()
          .duration(1000)
          .ease(d3.easeElastic)
@@ -387,6 +367,20 @@ var apple2 = svg.selectAll("img")
 
 
 f1();      
+
+var legendTitle= d3.select("#legend6")
+              .append("circle")
+              .attr("r",5)
+              .attr("cx",10)
+              .attr("cy",14)
+              .style("fill","#FBAAB8")
+              
+var legendNoTitle= d3.select("#legend7")
+              .append("circle")
+              .attr("r",5)
+              .attr("cx",10)
+              .attr("cy",14)
+              .style("fill","#194F39")
 
     
 })

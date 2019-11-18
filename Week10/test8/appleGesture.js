@@ -15,7 +15,6 @@ var appleGesture = d3.select("#image")
  var classificationData =[];
  var ageData = [];
  var nodes = data;
- var gestureData=["DP114943.png","DP837387.png"];
 
  var nestedClassification = d3.nest() //group data together
                     .key(function(d){ return d.classification;})

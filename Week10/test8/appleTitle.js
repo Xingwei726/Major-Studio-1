@@ -106,6 +106,7 @@ var mousemove3 = function(data) {
                      .attr("transform", "translate(55, 110)")
                      .style("opacity",0)
                     .on("mousemove", mousemove3)
+                    // .on("mouseleave", mouseleave3)
                     .on('click', function(d, i) {
                         window.open(d.metURL);
                         const el = d3.select(this);
@@ -219,13 +220,6 @@ function f5(){
                 }
               })
               
-            // .attr("cy", function(d,i){
-            //     if (d.title=="Apple"){
-            //     return 10
-            //     } else {
-            //     return 50
-            //     }
-            // })
 }
 
 
