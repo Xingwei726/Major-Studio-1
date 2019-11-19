@@ -183,6 +183,7 @@ li > em {
   height: 700px;
   margin: 2rem auto;
   text-align: left;
+  cursor:url('../images/appleCursor.png'),auto;
 }
 
 #intro p {
@@ -537,7 +538,9 @@ p > em2 {
   top: 50%;
   left: 50%;
   margin-left: 200px;
+  margin-bottom:200px;
   padding-top: 400px;
+  
   -moz-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -618,7 +621,6 @@ nav {
 scroll-container {
   display: block;
   justify-content: center;
-  /*width: 350px;*/
   height: 570px;
   width:50%;
   overflow-x: scroll;
@@ -633,22 +635,37 @@ scroll-page {
   width:50%;
   z-index:1;
   margin:100px;
-  padding-top: 100px;
+  padding-top: 50px;
   /*padding-bottom: 100px;*/
   height: 100%;
   font-size: 5em;
 }
 
 img{
-    cursor: pointer; 
+  cursor: pointer; 
+  /*margin-left: 100px;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 50%;*/
 }
 
 #gif{
+  /*display: inline-block;*/
+  /*align-items: center;*/
+  /*jus tify-content: center;*/
+  margin-top:100px;
+  margin-left:-30px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  position: sticky;
+  top: 0;
   
-  display: inline-block;
-    align-items: center;
-  justify-content: center;
-  
+}
+
+#image{
+  position: sticky;
+  top: 0;
 }
 
 /*Style for Buttons*/

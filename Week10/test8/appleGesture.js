@@ -5,6 +5,7 @@ var appleGesture = d3.select("#image")
             .attr("width", W)
             .attr("height", H)
             .append("g")
+
             
             
  d3.json("dataAll.json").then(function(data){
@@ -50,6 +51,9 @@ var appleGesture = d3.select("#image")
  }
 
 d3.json("dataHand.json").then(function(data){ 
+    
+    
+    
  appleGesture.selectAll("img")
     .data(data)
     .enter()
