@@ -16,7 +16,7 @@ As an interactive counter piece for the printed apple map, this interactive data
 
 ## Data Sorting
 Because for the last project I was mainly using the csv file for all the apple data, I queried them again this time but stored in JSON format for easier access when it comes to design. 
-![](data.png)
+![](datasorting.png)
 
 ## Coding Process
 I've been stuck for weeks on the coding...it even took me a while to figure out how to code some simple functions. But I'm glad for being through this process, it helped me to better understand the 'pain' of my developer friends caused by designers. 
