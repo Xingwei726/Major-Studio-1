@@ -373,7 +373,7 @@ var legendTitle= d3.select("#legend6")
               .attr("r",5)
               .attr("cx",10)
               .attr("cy",14)
-              .style("fill","#FBAAB8")
+              .style("fill","#E0625B")
               
 var legendNoTitle= d3.select("#legend7")
               .append("circle")

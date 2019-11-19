@@ -193,7 +193,7 @@ function f4(){
               .style("stroke","none")
               .style("fill",function(d,i) {
                if(d.title=="Apple"){
-                   return "#FBAAB8"
+                   return "#E0625B"
                } else {
                    return "#194F39"
                }
