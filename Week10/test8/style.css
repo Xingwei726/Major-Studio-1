@@ -1,7 +1,7 @@
 /*Scroll Icon Animation*/
 .scroll-downs {
   position: absolute;
-  top: 0;
+  top: 600px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -10,7 +10,7 @@
   height: 55px;
 }
 .mousey {
-  margin-top:320px;
+  /*margin-top:320px;*/
   width: 3px;
   padding: 10px 15px;
   height: 35px;
