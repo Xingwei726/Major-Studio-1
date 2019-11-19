@@ -10,7 +10,7 @@
   height: 55px;
 }
 .mousey {
-  margin-top:250px;
+  margin-top:320px;
   width: 3px;
   padding: 10px 15px;
   height: 35px;
@@ -29,6 +29,7 @@
   animation-timing-function: cubic-bezier(.15,.41,.69,.94);
   animation-iteration-count: infinite;
 }
+
 @keyframes scroll {
   0% { opacity: 0; }
   10% { transform: translateY(0); opacity: 1; }
@@ -123,10 +124,6 @@ h1 > em {
   margin-right:-35px;
   color:#E0625B;
   font-style:normal;
-}
-
-#find h3 {
-  text-align: center;
 }
 
 p {
@@ -227,8 +224,6 @@ body{
 
 #image{
     padding-left:70px;
-
-  
 }
 
 .tooltip{
@@ -236,6 +231,8 @@ body{
   text-align: left;
   padding-left: 30px;
 }
+
+
 
 
 /*Styles For Stepper*/
@@ -247,14 +244,8 @@ body{
   
 }
 
-#stepper{
-  
-  
-}
 
 /*Styles For Scrollable Texts*/
-
-
 #scrolly {
   position: relative;
   display: -webkit-box;
@@ -568,6 +559,10 @@ p > em2 {
   color:#194F39;
 }
 
+#find h3 {
+  text-align: center;
+}
+
 #find p {
   text-align: center;
   padding-left: 30px;
@@ -595,8 +590,6 @@ a > h3:hover{
     margin: 0px 24px;
 
 }
-
-
 
 nav, scroll-container {
   display: block;
@@ -662,6 +655,33 @@ img{
 #image{
   position: sticky;
   top: 0;
+}
+
+
+
+/*Styles for End Section*/
+#end h2{
+  font-family: 'Anton', sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 95%;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 10px;
+  /*padding-left: 30px;*/
+  /* font-variant-caps: all-petite-caps; */
+  color:#194F39;
+}
+
+#end p {
+  text-align: center;
+  padding-left: 30px;
+  /*margin-left: 400px;*/
+  font-size: 1rem;
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.5rem;
+  /*display: inline-block;*/
+  color:#194F39;
 }
 
 /*Style for Buttons*/
