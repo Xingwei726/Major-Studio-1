@@ -1,0 +1,277 @@
+#dataviz{
+  padding-left:1em;
+}
+
+.tooltip{
+  font-size: 16px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+#intro {
+  height: 700px;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+h1{
+  font-family: 'Anton', sans-serif;
+  font-size: 150px;
+  font-weight: 800;
+  line-height: 95%;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  /* font-variant-caps: all-petite-caps; */
+  color:#194F39;
+}
+
+em {
+  font-size: 60px;
+  line-height: 95%;
+  text-align: left;
+  margin-left: -30px;
+  color:#FBAAB8;
+}
+ 
+#intro p {
+  max-width: 600px;
+  text-align: center;
+  padding-left: 30px;
+  margin-left: 400px;
+  font-size: 1rem;
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.5rem;
+  display: inline-block;
+  color:#194F39;
+}
+
+.title text {
+    font-family: 'Rubik', sans-serif;
+
+}
+
+div.step {
+  margin: 0 auto 2rem auto;
+  background-color: #FFFAF0;
+  color: #3b3b3b;
+  margin-bottom: 400px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  min-height: 1280px;
+  color: #3b3b3b;
+  font-size: 24px;
+}
+
+/*p,*/
+/*h1,*/
+/*h2,*/
+/*h3,*/
+/*h4,*/
+/*a {*/
+/*  margin: 0;*/
+/*  font-weight: 400;*/
+/*}*/
+
+a,
+a:visited,
+a:hover {
+  color: teal;
+  text-decoration: none;
+  border-bottom: 2px solid currentColor;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: #FFFAF0;
+  padding: 1rem;
+  padding-right: 5rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.nav__examples {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.nav__examples > * {
+  margin-right: 0.5rem;
+}
+
+
+
+.intro__hed {
+  font-size: 2em;
+  margin: 2rem auto 0.5rem auto;
+}
+
+.intro__dek {
+  color: #FFFAF0;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+
+
+#outro {
+  height: 640px;
+}
+
+@media (min-width: 840px) {
+  .nav__examples {
+    margin-top: 0;
+    margin-left: 2rem;
+  }
+}
+
+
+#scrolly {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFAF0;
+  padding: 1rem;
+  width: 100%;
+}
+
+#scrolly > * {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+
+article {
+  position: relative;
+  /* padding: 0 1rem; */
+  padding-right: 150px;
+  padding-top: 100px;
+  max-width: 50%;
+}
+
+/* Step Titles */
+h2{
+  font-family: 'Anton', sans-serif;
+  font-size: 90px;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: -20px;
+  padding-left: 30px;
+  /* font-variant-caps: all-petite-caps; */
+  color:#194F39;
+}
+
+/* Step Description */
+.step p {
+  text-align: left;
+  max-width: 600px;
+  padding-left: 30px;
+  font-size: 1rem;
+  font-family: 'Rubik', sans-serif;
+  /* font-size: 12px; */
+  line-height: 1.5rem;
+  /* font-weight: 800; */
+  text-align: left;
+  color:#194F39;
+
+}
+
+figure {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 50%;
+  margin: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  background-color: #8a8a8a;
+}
+
+figure p {
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 8rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+
+.step:last-child {
+  margin-bottom: 0;
+}
+
+.step.is-active {
+  background-color: #FFFAF0;
+  color: #3b3b3b;
+}
+

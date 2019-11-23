@@ -1,0 +1,64 @@
+country,medium,value
+Africa,Print,30
+Africa,Sculpture,95
+Africa,Ceramic,22
+Asia,Print,37
+Asia,Sculpture,50
+Asia,Ceramic,81
+Asia,Painting,79
+Asia,Textile,84
+Asia,Metalwork,91
+Asia,Drawings,82
+Asia,Photographs,89
+Asia,Ornament,6
+Asia,Woodworks,67
+Europe,Print,96
+Europe,Sculpture,13
+Europe,Ceramic,98
+Europe,Painting,10
+Europe,Textile,86
+Europe,Metalwork,23
+Europe,Drawings,74
+Europe,Photographs,47
+Europe,Ornament,73
+Europe,Woodworks,40
+North America,Print,75
+North America,Sculpture,18
+North America,Ceramic,92
+North America,Painting,43
+North America,Textile,16
+North America,Metalwork,27
+North America,Drawings,76
+North America,Photographs,24
+North America,Ornament,1
+North America,Woodworks,87
+South America,Print,44
+South America,Sculpture,29
+South America,Ceramic,58
+South America,Painting,55
+South America,Textile,65
+South America,Metalwork,56
+South America,Drawings,9
+South America,Photographs,78
+South America,Ornament,49
+South America,Woodworks,36
+Roman Empire,Print,35
+Roman Empire,Sculpture,80
+Roman Empire,Ceramic,8
+Roman Empire,Painting,46
+Roman Empire,Textile,48
+Roman Empire,Metalwork,100
+Roman Empire,Drawings,17
+Roman Empire,Photographs,41
+Roman Empire,Ornament,33
+Roman Empire,Woodworks,11
+Non-specified,Print,77
+Non-specified,Sculpture,62
+Non-specified,Ceramic,94
+Non-specified,Painting,15
+Non-specified,Textile,69
+Non-specified,Metalwork,63
+Non-specified,Drawings,61
+Non-specified,Photographs,54
+Non-specified,Ornament,38
+Non-specified,Woodworks,93
