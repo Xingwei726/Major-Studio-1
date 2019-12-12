@@ -1,6 +1,6 @@
 # Apple of My Eyes
 
-![](AppleOfMyEyes.png)
+![](a.jpg)
 
 ## Project Introduction:
 
@@ -48,16 +48,18 @@ I want to adopt the method of a play book---what we usually find in children’s
 ## Design Process
 
 *Idea Sketches:*
+
 ![](LayoutIterations1.jpg)
 ![](LayoutIterations2.jpg)
 
 *Layout Iterations:*
+
 ![](OldSketch1.jpg)
 ![](OldSketch2.jpg)
 
 *Preliminary Sketch:*
+
 ![](SecondDraft1.png)
-![](SecondDraft2.jpg)
 
 
 ## Final Design
