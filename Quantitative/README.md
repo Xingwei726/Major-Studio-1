@@ -1,6 +1,6 @@
 # Lives' Dimensions
 
-## Headline/Description:
+## Project Introduction:
 
 For this quantitative data project, I want to explore the pattern formed by measuring the 'lengths' of artists' lives. Two Lengths: Artists' Life Spans (yrs); Distance between artists' places of birth & places of death (km). This project aims to visualize their relationship from a relatively macro perspective.
 
