@@ -22,10 +22,10 @@ The app emphasizes at different parts of the content based on whether the user i
 ![](appIn&Out2.jpg)
 
 Its purpose is to provide minimum guidances, not overtaken the fun of  ‘hunting’. 
-![](appleHunt.jpg)
+![](appHunt.jpg)
 
 Once you discovered an apple successfully, it will reveal the its apple icon and inside app you can see what’s the proportion of other people who discovered it as well.
-![](appleCollect.jpg)
+![](appCollect.jpg)
 
 
 
