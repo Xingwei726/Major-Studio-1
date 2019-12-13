@@ -1,10 +1,10 @@
 # Apple of The Met
 
-![](appName.jpg)
+![](appName.png)
 
-![](appIdea.jpg)
+![](appIdea.png)
 
-![](appIn&Out.jpg)
+![](appIn&Out.png)
 
 ## Project Introduction:
 
@@ -18,14 +18,14 @@ This mobile app concept is a further development of the [Apple of The Met](https
 
 ## Design
 The app emphasizes at different parts of the content based on whether the user is currently **inside** or **outside** the Met Museum
-![](appIn&Out.jpg)
-![](appIn&Out2.jpg)
+![](appIn&Out.png)
+![](appIn&Out2.png)
 
 Its purpose is to provide minimum guidances, not overtaken the fun of  ‘hunting’. 
-![](appHunt.jpg)
+![](appHunt.png)
 
 Once you discovered an apple successfully, it will reveal the its apple icon and inside app you can see what’s the proportion of other people who discovered it as well.
-![](appCollect.jpg)
+![](appCollect.png)
 
 
 
@@ -34,7 +34,6 @@ Once you discovered an apple successfully, it will reveal the its apple icon and
 **Scenario 1**
 
 You are on your way to the Met museum and decided to open this app which you’ve just downloaded yesterday. You scan through the Apple Stories and find one that’s really interesting so you added this apple to your apple hunt list.
-![](s1.gif)
 
 
 
