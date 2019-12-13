@@ -12,7 +12,7 @@ This mobile app concept is a further development of the [Apple of The Met](https
 
 
 ## Site Map
-![](sitePlan.png)
+![](SitePlan.jpg)
 
 
 ## Design
