@@ -12,8 +12,7 @@ This mobile app concept is a further development of the [Apple of The Met](https
 
 
 ## Site Map
-
-![](sitemap.png)
+![](sitePlan.png)
 
 
 ## Design
@@ -26,15 +25,6 @@ Its purpose is to provide minimum guidances, not overtaken the fun of  ‘huntin
 
 Once you discovered an apple successfully, it will reveal the its apple icon and inside app you can see what’s the proportion of other people who discovered it as well.
 ![](appCollect.png)
-
-
-
-## Final Design / User Journey
-
-**Scenario 1**
-
-You are on your way to the Met museum and decided to open this app which you’ve just downloaded yesterday. You scan through the Apple Stories and find one that’s really interesting so you added this apple to your apple hunt list.
-
 
 
 
