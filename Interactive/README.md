@@ -40,8 +40,11 @@ I've been stuck for weeks on the coding...it even took me a while to figure out 
 
 ## Final Design
 
-![](finaldesign.png)
-[click to view details](https://xingwei726.github.io/Major-Studio-1/Week10_InteractiveProject/test8/)
+![](H1.png)
+![](S1.png)
+![](S2.png)
+![](S3.png)
+![](S4.png)
 
 
 ## Self Critics
