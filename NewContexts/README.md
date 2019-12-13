@@ -27,4 +27,7 @@ Once you discovered an apple successfully, it will reveal the its apple icon and
 ![](appCollect.png)
 
 
+## User Journery & Interaction
+For user journery details please visit [here](https://vimeo.com/379307061)
+
 
